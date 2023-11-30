@@ -1,0 +1,14 @@
+CRITICAL - 2023-11-13 00:19:55 --> Call to a member function find() on null
+in APPPATH\Controllers\HistorialMedico.php on line 85.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\HistorialMedico->editar('1')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMedico))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-11-13 00:20:03 --> Call to a member function find() on null
+in APPPATH\Controllers\Medicamentos.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Medicamentos->editar('1')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicamentos))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')

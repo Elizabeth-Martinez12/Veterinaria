@@ -1,0 +1,37 @@
+CRITICAL - 2023-10-12 01:04:51 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table('')
+ 2 SYSTEMPATH\Model.php(230): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Consultas.php(16): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Consultas->consultas()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consultas))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-12 01:07:55 --> Undefined variable $data
+in APPPATH\Controllers\Consultas.php on line 18.
+ 1 APPPATH\Controllers\Consultas.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\Veterinaria\\app\\Controllers\\Consultas.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Consultas->consultas()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consultas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-12 01:07:57 --> Undefined variable $data
+in APPPATH\Controllers\Consultas.php on line 18.
+ 1 APPPATH\Controllers\Consultas.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\Veterinaria\\app\\Controllers\\Consultas.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Consultas->consultas()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consultas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-12 17:12:27 --> Invalid file: "alumno/agregar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('alumno/agregar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('alumno/agregar', [], true)
+ 3 APPPATH\Controllers\Consultas.php(28): view('alumno/agregar')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Consultas->agregar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consultas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')

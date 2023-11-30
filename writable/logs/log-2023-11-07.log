@@ -1,0 +1,221 @@
+CRITICAL - 2023-11-07 19:42:50 --> Call to a member function findAll() on null
+in APPPATH\Controllers\HistorialMedico.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\HistorialMedico->agregar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMedico))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-11-07 19:59:36 --> Too few arguments to function App\Controllers\HistorialMedico::mostrar1(), 0 passed in C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\HistorialMedico.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\HistorialMedico->mostrar1()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMedico))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-11-07 20:03:56 --> Too few arguments to function App\Controllers\HistorialMedico::mostrar1(), 0 passed in C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\HistorialMedico.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\HistorialMedico->mostrar1()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMedico))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-11-07 20:05:03 --> Too few arguments to function App\Controllers\HistorialMedico::mostrar1(), 0 passed in C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\HistorialMedico.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\HistorialMedico->mostrar1()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMedico))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-11-07 20:05:03 --> Too few arguments to function App\Controllers\HistorialMedico::mostrar1(), 0 passed in C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\HistorialMedico.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\HistorialMedico->mostrar1()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMedico))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-11-07 20:05:04 --> Too few arguments to function App\Controllers\HistorialMedico::mostrar1(), 0 passed in C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\HistorialMedico.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\HistorialMedico->mostrar1()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMedico))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-11-07 20:05:15 --> Too few arguments to function App\Controllers\HistorialMedico::mostrar1(), 0 passed in C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\HistorialMedico.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\HistorialMedico->mostrar1()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMedico))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-11-07 20:06:57 --> Cannot use object of type stdClass as array
+in APPPATH\Views\historialMedico\mostrar.php on line 20.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('historialMedico/mostrar', [], true)
+ 4 APPPATH\Controllers\HistorialMedico.php(34): view('historialMedico/mostrar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\HistorialMedico->mostrar('2')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMedico))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-11-07 20:09:49 --> Attempt to read property "imagen" on string
+in APPPATH\Views\historialMedico\mostrar.php on line 24.
+ 1 APPPATH\Views\historialMedico\mostrar.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "imagen" on string', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\historialMedico\\mostrar.php', 24)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\historialMedico\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('historialMedico/mostrar', [], true)
+ 5 APPPATH\Controllers\HistorialMedico.php(34): view('historialMedico/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\HistorialMedico->mostrar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMedico))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-11-07 20:10:49 --> Attempt to read property "fechasConsultas" on string
+in APPPATH\Views\historialMedico\mostrar.php on line 43.
+ 1 APPPATH\Views\historialMedico\mostrar.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "fechasConsultas" on string', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\historialMedico\\mostrar.php', 43)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\historialMedico\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('historialMedico/mostrar', [], true)
+ 5 APPPATH\Controllers\HistorialMedico.php(34): view('historialMedico/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\HistorialMedico->mostrar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMedico))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-11-07 20:11:07 --> count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+in APPPATH\Views\historialMedico\mostrar.php on line 49.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('historialMedico/mostrar', [], true)
+ 4 APPPATH\Controllers\HistorialMedico.php(34): view('historialMedico/mostrar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\HistorialMedico->mostrar('2')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMedico))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-11-07 20:11:08 --> count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+in APPPATH\Views\historialMedico\mostrar.php on line 49.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('historialMedico/mostrar', [], true)
+ 4 APPPATH\Controllers\HistorialMedico.php(34): view('historialMedico/mostrar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\HistorialMedico->mostrar('2')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMedico))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-11-07 20:12:52 --> Unclosed '{' on line 14
+in APPPATH\Views\historialMedico\mostrar.php on line 57.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('historialMedico/mostrar', [], true)
+ 3 APPPATH\Controllers\HistorialMedico.php(34): view('historialMedico/mostrar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\HistorialMedico->mostrar('2')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMedico))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+ERROR - 2023-11-07 20:13:31 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'veterinaria', 3306, '', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\eliza\OneDrive\Documentos\Veterinaria\app\Controllers\HistorialMedico.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(919): App\Controllers\HistorialMedico->mostrar1()
+#8 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMedico))
+#9 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\eliza\OneDrive\Documentos\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\eliza\OneDrive\Documentos\Veterinaria\app\Controllers\HistorialMedico.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(919): App\Controllers\HistorialMedico->mostrar1()
+#7 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMedico))
+#8 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\eliza\OneDrive\Documentos\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#11 {main}
+CRITICAL - 2023-11-07 20:13:31 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `historialMedico`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\HistorialMedico.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\HistorialMedico->mostrar1()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMedico))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+ERROR - 2023-11-07 20:13:40 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'veterinaria', 3306, '', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\eliza\OneDrive\Documentos\Veterinaria\app\Controllers\HistorialMedico.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(919): App\Controllers\HistorialMedico->mostrar1()
+#8 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMedico))
+#9 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\eliza\OneDrive\Documentos\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\eliza\OneDrive\Documentos\Veterinaria\app\Controllers\HistorialMedico.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(919): App\Controllers\HistorialMedico->mostrar1()
+#7 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMedico))
+#8 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\eliza\OneDrive\Documentos\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#11 {main}
+CRITICAL - 2023-11-07 20:13:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `historialMedico`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\HistorialMedico.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\HistorialMedico->mostrar1()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMedico))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-11-07 20:30:33 --> Call to a member function delete() on null
+in APPPATH\Controllers\Medicamentos.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Medicamentos->delete('1')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicamentos))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-11-07 20:31:45 --> Invalid file: "inicio/inicio.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inicio/inicio.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('inicio/inicio', [], true)
+ 3 APPPATH\Controllers\Inicio.php(11): view('inicio/inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Inicio->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')

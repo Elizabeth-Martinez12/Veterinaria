@@ -1,0 +1,68 @@
+CRITICAL - 2023-11-10 19:08:44 --> Undefined variable $duracion
+in APPPATH\Controllers\Consultas.php on line 111.
+ 1 APPPATH\Controllers\Consultas.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $duracion', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Controllers\\Consultas.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Consultas->buscar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consultas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-11-10 19:45:19 --> Undefined variable $consultas
+in APPPATH\Views\consultas\buscar.php on line 42.
+ 1 APPPATH\Views\consultas\buscar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $consultas', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\consultas\\buscar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\consultas\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('consultas/buscar', [], true)
+ 5 APPPATH\Controllers\Consultas.php(125): view('consultas/buscar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Consultas->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consultas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-11-10 19:46:10 --> Undefined variable $consultas
+in APPPATH\Views\consultas\buscar.php on line 42.
+ 1 APPPATH\Views\consultas\buscar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $consultas', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\consultas\\buscar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\consultas\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('consultas/buscar', [], true)
+ 5 APPPATH\Controllers\Consultas.php(125): view('consultas/buscar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Consultas->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consultas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-11-10 19:46:24 --> Undefined variable $consultas
+in APPPATH\Views\consultas\buscar.php on line 42.
+ 1 APPPATH\Views\consultas\buscar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $consultas', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\consultas\\buscar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\consultas\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('consultas/buscar', [], true)
+ 5 APPPATH\Controllers\Consultas.php(125): view('consultas/buscar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Consultas->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consultas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-11-10 19:47:37 --> Undefined variable $consultas
+in APPPATH\Views\consultas\buscar.php on line 42.
+ 1 APPPATH\Views\consultas\buscar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $consultas', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\consultas\\buscar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\consultas\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('consultas/buscar', [], true)
+ 5 APPPATH\Controllers\Consultas.php(125): view('consultas/buscar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Consultas->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consultas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-11-10 19:47:38 --> Undefined variable $consultas
+in APPPATH\Views\consultas\buscar.php on line 42.
+ 1 APPPATH\Views\consultas\buscar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $consultas', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\consultas\\buscar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\consultas\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('consultas/buscar', [], true)
+ 5 APPPATH\Controllers\Consultas.php(125): view('consultas/buscar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Consultas->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consultas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')

@@ -1,0 +1,39 @@
+CRITICAL - 2023-11-26 23:41:57 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Veterinarios.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Veterinarios->agregar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinarios))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-11-26 23:47:55 --> Undefined property: stdClass::$idVeterinario
+in APPPATH\Views\consultas\mostrar.php on line 26.
+ 1 APPPATH\Views\consultas\mostrar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$idVeterinario', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\consultas\\mostrar.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\consultas\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('consultas/mostrar', [], true)
+ 5 APPPATH\Controllers\Consultas.php(21): view('consultas/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Consultas->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consultas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-11-26 23:48:05 --> Undefined property: stdClass::$idVeterinario
+in APPPATH\Views\consultas\mostrar.php on line 26.
+ 1 APPPATH\Views\consultas\mostrar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$idVeterinario', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\consultas\\mostrar.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\consultas\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('consultas/mostrar', [], true)
+ 5 APPPATH\Controllers\Consultas.php(21): view('consultas/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Consultas->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consultas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-11-26 23:58:59 --> Undefined array key "veterinario"
+in APPPATH\Controllers\Consultas.php on line 62.
+ 1 APPPATH\Controllers\Consultas.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "veterinario"', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Controllers\\Consultas.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Consultas->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consultas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')

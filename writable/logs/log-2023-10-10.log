@@ -1,0 +1,550 @@
+ERROR - 2023-10-10 04:14:42 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\Veterinaria\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\Veterinaria\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'root', 'ci4', 3307, '', 0)
+#1 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Veterinaria\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Veterinaria\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Veterinaria\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Veterinaria\app\Controllers\Veterinaria.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+#8 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+#9 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\Veterinaria\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Veterinaria\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\Veterinaria\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Veterinaria\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\Veterinaria\app\Controllers\Veterinaria.php(16): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+#7 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+#8 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-10 04:14:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `veterinarias`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Veterinaria.php(16): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+ERROR - 2023-10-10 04:15:04 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\Veterinaria\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\Veterinaria\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'root', 'ci4', 3307, '', 0)
+#1 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Veterinaria\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Veterinaria\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Veterinaria\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Veterinaria\app\Controllers\Veterinaria.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+#8 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+#9 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\Veterinaria\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Veterinaria\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\Veterinaria\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Veterinaria\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\Veterinaria\app\Controllers\Veterinaria.php(16): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+#7 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+#8 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-10 04:15:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `veterinarias`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Veterinaria.php(16): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+ERROR - 2023-10-10 04:16:44 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\Veterinaria\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\Veterinaria\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'root', 'ci4', 3307, '', 0)
+#1 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Veterinaria\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Veterinaria\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Veterinaria\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Veterinaria\app\Controllers\Veterinaria.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+#8 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+#9 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\Veterinaria\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Veterinaria\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\Veterinaria\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Veterinaria\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\Veterinaria\app\Controllers\Veterinaria.php(16): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+#7 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+#8 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-10 04:16:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `veterinaria`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Veterinaria.php(16): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+ERROR - 2023-10-10 04:16:45 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\Veterinaria\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\Veterinaria\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'root', 'ci4', 3307, '', 0)
+#1 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Veterinaria\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Veterinaria\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Veterinaria\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Veterinaria\app\Controllers\Veterinaria.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+#8 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+#9 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\Veterinaria\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Veterinaria\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\Veterinaria\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Veterinaria\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\Veterinaria\app\Controllers\Veterinaria.php(16): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+#7 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+#8 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-10-10 04:16:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `veterinaria`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Veterinaria.php(16): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+ERROR - 2023-10-10 04:17:13 --> mysqli_sql_exception: Table 'veterinaria.veterinaria' doesn't exist in C:\xampp\htdocs\Veterinaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Veterinaria\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Veterinaria\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Veterinaria\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Veterinaria\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Veterinaria\app\Controllers\Veterinaria.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+#8 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+#9 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-10-10 04:17:13 --> Table 'veterinaria.veterinaria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `veterinaria`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Veterinaria.php(16): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+ERROR - 2023-10-10 04:20:07 --> mysqli_sql_exception: Table 'veterinaria.veterinaria' doesn't exist in C:\xampp\htdocs\Veterinaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Veterinaria\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Veterinaria\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Veterinaria\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Veterinaria\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Veterinaria\app\Controllers\Veterinaria.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+#8 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+#9 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-10-10 04:20:07 --> Table 'veterinaria.veterinaria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `veterinaria`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Veterinaria.php(16): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+ERROR - 2023-10-10 04:20:08 --> mysqli_sql_exception: Table 'veterinaria.veterinaria' doesn't exist in C:\xampp\htdocs\Veterinaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Veterinaria\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Veterinaria\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Veterinaria\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Veterinaria\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Veterinaria\app\Controllers\Veterinaria.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+#8 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+#9 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-10-10 04:20:08 --> Table 'veterinaria.veterinaria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `veterinaria`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Veterinaria.php(16): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+ERROR - 2023-10-10 04:20:30 --> mysqli_sql_exception: Table 'veterinaria.veterinaria' doesn't exist in C:\xampp\htdocs\Veterinaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Veterinaria\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Veterinaria\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Veterinaria\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Veterinaria\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Veterinaria\app\Controllers\Veterinaria.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+#8 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+#9 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-10-10 04:20:30 --> Table 'veterinaria.veterinaria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `veterinaria`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Veterinaria.php(16): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+ERROR - 2023-10-10 04:20:58 --> mysqli_sql_exception: Table 'veterinaria.consultas' doesn't exist in C:\xampp\htdocs\Veterinaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Veterinaria\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Veterinaria\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Veterinaria\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Veterinaria\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Veterinaria\app\Controllers\Veterinaria.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+#8 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+#9 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-10-10 04:20:58 --> Table 'veterinaria.consultas' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `consultas`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Veterinaria.php(16): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+ERROR - 2023-10-10 04:21:00 --> mysqli_sql_exception: Table 'veterinaria.consultas' doesn't exist in C:\xampp\htdocs\Veterinaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\Veterinaria\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Veterinaria\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Veterinaria\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Veterinaria\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Veterinaria\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Veterinaria\app\Controllers\Veterinaria.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+#8 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+#9 C:\xampp\htdocs\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-10-10 04:21:00 --> Table 'veterinaria.consultas' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `consultas`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Veterinaria.php(16): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-10 04:26:18 --> Invalid file: "alumno/mostrar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('alumno/mostrar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('alumno/mostrar', [], true)
+ 3 APPPATH\Controllers\Veterinaria.php(20): view('alumno/mostrar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-10 04:26:57 --> Undefined variable $alumnos
+in APPPATH\Views\veterinaria\consultas.php on line 13.
+ 1 APPPATH\Views\veterinaria\consultas.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $alumnos', 'C:\\xampp\\htdocs\\Veterinaria\\app\\Views\\veterinaria\\consultas.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Veterinaria\\app\\Views\\veterinaria\\consultas.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('veterinaria/consultas', [], true)
+ 5 APPPATH\Controllers\Veterinaria.php(20): view('veterinaria/consultas', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-10 05:26:48 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Veterinaria.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-10 05:26:50 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Veterinaria.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-10 05:28:10 --> Undefined variable $veterinariaModel
+in APPPATH\Controllers\Veterinaria.php on line 16.
+ 1 APPPATH\Controllers\Veterinaria.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $veterinariaModel', 'C:\\xampp\\htdocs\\Veterinaria\\app\\Controllers\\Veterinaria.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-10 05:28:11 --> Undefined variable $veterinariaModel
+in APPPATH\Controllers\Veterinaria.php on line 16.
+ 1 APPPATH\Controllers\Veterinaria.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $veterinariaModel', 'C:\\xampp\\htdocs\\Veterinaria\\app\\Controllers\\Veterinaria.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-10 05:29:37 --> Undefined variable $veterinariaModel
+in APPPATH\Controllers\Veterinaria.php on line 16.
+ 1 APPPATH\Controllers\Veterinaria.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $veterinariaModel', 'C:\\xampp\\htdocs\\Veterinaria\\app\\Controllers\\Veterinaria.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Veterinaria->consultas()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinaria))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-10 05:45:35 --> Invalid file: "veterinaria/medicamentos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('veterinaria/medicamentos.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('veterinaria/medicamentos', [], true)
+ 3 APPPATH\Controllers\Medicamentos.php(21): view('veterinaria/medicamentos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Medicamentos->medicamentos()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicamentos))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-10 05:45:40 --> Invalid file: "veterinaria/medicamentos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('veterinaria/medicamentos.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('veterinaria/medicamentos', [], true)
+ 3 APPPATH\Controllers\Medicamentos.php(21): view('veterinaria/medicamentos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Medicamentos->medicamentos()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicamentos))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-10 05:45:41 --> Invalid file: "veterinaria/medicamentos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('veterinaria/medicamentos.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('veterinaria/medicamentos', [], true)
+ 3 APPPATH\Controllers\Medicamentos.php(21): view('veterinaria/medicamentos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Medicamentos->medicamentos()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicamentos))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-10 05:45:43 --> Invalid file: "veterinaria/medicamentos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('veterinaria/medicamentos.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('veterinaria/medicamentos', [], true)
+ 3 APPPATH\Controllers\Medicamentos.php(21): view('veterinaria/medicamentos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Medicamentos->medicamentos()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicamentos))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-10 05:47:21 --> Invalid file: "veterinaria/medicamentos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('veterinaria/medicamentos.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('veterinaria/medicamentos', [], true)
+ 3 APPPATH\Controllers\Medicamentos.php(21): view('veterinaria/medicamentos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Medicamentos->medicamentos()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicamentos))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-10 05:47:22 --> Invalid file: "veterinaria/medicamentos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('veterinaria/medicamentos.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('veterinaria/medicamentos', [], true)
+ 3 APPPATH\Controllers\Medicamentos.php(21): view('veterinaria/medicamentos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Medicamentos->medicamentos()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicamentos))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-10 05:47:23 --> Invalid file: "veterinaria/medicamentos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('veterinaria/medicamentos.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('veterinaria/medicamentos', [], true)
+ 3 APPPATH\Controllers\Medicamentos.php(21): view('veterinaria/medicamentos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Medicamentos->medicamentos()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicamentos))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-10 05:49:53 --> Invalid file: "veterinaria/consultas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('veterinaria/consultas.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('veterinaria/consultas', [], true)
+ 3 APPPATH\Controllers\Consultas.php(20): view('veterinaria/consultas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Consultas->consultas()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consultas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-10 05:53:10 --> Invalid file: "veterinaria/consultas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('veterinaria/consultas.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('veterinaria/consultas', [], true)
+ 3 APPPATH\Controllers\Consultas.php(20): view('veterinaria/consultas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Consultas->consultas()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consultas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-10 05:53:11 --> Invalid file: "veterinaria/consultas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('veterinaria/consultas.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('veterinaria/consultas', [], true)
+ 3 APPPATH\Controllers\Consultas.php(20): view('veterinaria/consultas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Consultas->consultas()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consultas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-10 05:53:12 --> Invalid file: "veterinaria/consultas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('veterinaria/consultas.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('veterinaria/consultas', [], true)
+ 3 APPPATH\Controllers\Consultas.php(20): view('veterinaria/consultas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Consultas->consultas()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consultas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-10 05:53:12 --> Invalid file: "veterinaria/consultas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('veterinaria/consultas.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('veterinaria/consultas', [], true)
+ 3 APPPATH\Controllers\Consultas.php(20): view('veterinaria/consultas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Consultas->consultas()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consultas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-10 05:53:38 --> Invalid file: "veterinaria/consultas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('veterinaria/consultas.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('veterinaria/consultas', [], true)
+ 3 APPPATH\Controllers\Consultas.php(20): view('veterinaria/consultas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Consultas->consultas()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consultas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-10 05:55:54 --> Invalid file: "veterinaria/medicamentos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('veterinaria/medicamentos.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('veterinaria/medicamentos', [], true)
+ 3 APPPATH\Controllers\Medicamentos.php(21): view('veterinaria/medicamentos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Medicamentos->medicamentos()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicamentos))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-10-10 06:14:12 --> Undefined variable $medicamentos
+in APPPATH\Views\veterinarios\veterinarios.php on line 17.
+ 1 APPPATH\Views\veterinarios\veterinarios.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $medicamentos', 'C:\\xampp\\htdocs\\Veterinaria\\app\\Views\\veterinarios\\veterinarios.php', 17)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\Veterinaria\\app\\Views\\veterinarios\\veterinarios.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('veterinarios/veterinarios', [], true)
+ 5 APPPATH\Controllers\Veterinarios.php(21): view('veterinarios/veterinarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Veterinarios->veterinarios()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Veterinarios))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Veterinaria\\public\\index.php')
