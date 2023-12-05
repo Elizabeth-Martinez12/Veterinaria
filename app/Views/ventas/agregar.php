@@ -76,12 +76,12 @@
         var precioInput = document.getElementById("precio");
         var totalInput = document.getElementById("total");
 
-        var precioUnitario = parseFloat(articuloSelect.options[articuloSelect.selectedIndex].getAttribute('data-precio'));
+        var precio = parseFloat(articuloSelect.options[articuloSelect.selectedIndex].getAttribute('data-precio'));
         var cantidad = parseInt(cantidadInput.value);
 
-        if (!isNaN(precioUnitario) && !isNaN(cantidad)) {
-            var total = precioUnitario * cantidad;
-            precioInput.value = precioUnitario.toFixed(2);
+        if (!isNaN(precio) && !isNaN(cantidad)) {
+            var total = precio * cantidad;
+            precioInput.value = precio.toFixed(2);
             totalInput.value = total.toFixed(2);
         }
     }
@@ -94,10 +94,10 @@
 
         var nombre = articuloSelect.value;
         var cantidad = cantidadInput.value;
-        var precioUnitario = precioInput.value;
+        var precio = precioInput.value;
         var total = totalInput.value;
 
-        if (nombre && cantidad && precioUnitario && total) {
+        if (nombre && cantidad && precio && total) {
             var tableBody = document.getElementById("articulosTablaBody");
             var newRow = tableBody.insertRow();
             var cell1 = newRow.insertCell(0);
@@ -107,7 +107,7 @@
 
             cell1.innerHTML = nombre;
             cell2.innerHTML = cantidad;
-            cell3.innerHTML = precioUnitario;
+            cell3.innerHTML = precio;
             cell4.innerHTML = total;
 
             // Limpiar campos después de agregar a la tabla

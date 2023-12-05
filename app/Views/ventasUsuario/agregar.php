@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-12">
             <h2 class="text-center mb-4">Agregar Venta</h2>
-            <form action="<?= base_url('index.php/ventasUsuario/insert'); ?>" method="" id="ventaForm">
+            <form action="<?= base_url('index.php/ventasUsuario/insert'); ?>" method="post" id="ventaForm">
                 <?= csrf_field() ?>
                 <input type="hidden" name="id" value="1">
 
@@ -94,10 +94,10 @@
 
         var nombre = articuloSelect.value;
         var cantidad = cantidadInput.value;
-        var precioUnitario = precioInput.value;
+        var precio = precioInput.value;
         var total = totalInput.value;
 
-        if (nombre && cantidad && precioUnitario && total) {
+        if (nombre && cantidad && precio && total) {
             var tableBody = document.getElementById("articulosTablaBody");
             var newRow = tableBody.insertRow();
             var cell1 = newRow.insertCell(0);
@@ -107,7 +107,7 @@
 
             cell1.innerHTML = nombre;
             cell2.innerHTML = cantidad;
-            cell3.innerHTML = precioUnitario;
+            cell3.innerHTML = precio;
             cell4.innerHTML = total;
 
             // Limpiar campos después de agregar a la tabla

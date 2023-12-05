@@ -62,6 +62,7 @@ class VentasUsuarios extends BaseController
         "fechaVenta" => $this->request->getPost('fechaVenta')
         ];
         $ventasModel->insert($data);
+        
         return redirect()->to('ventasUsuario/mostrar');
 }
 
