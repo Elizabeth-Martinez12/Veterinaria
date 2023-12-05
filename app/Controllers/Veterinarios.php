@@ -11,7 +11,7 @@ class Veterinarios extends BaseController
         //
     }
 
-    public function mostrar(){
+    public function mostrar(){ // Funcion de mostrar la cual presenta los datos contenidos en la base de datos
         $veterinariosModel = model('VeterinariosModel');
         
         $data['veterinarios'] = $veterinariosModel->findAll();
@@ -23,7 +23,7 @@ class Veterinarios extends BaseController
         view('common/footer');
     }
 
-    public function agregar(){
+    public function agregar(){ // Funcion agregar que permite realizar inserciones a la base de datos
         helper(['form','url']);
         $veterinariosModel = model('VeterinariosModel');
 
@@ -50,7 +50,7 @@ class Veterinarios extends BaseController
         }
     }
 
-    public function insert(){
+    public function insert(){ // Funcion insert es la que guarda los datos
         $veterinariosModel = model('VeterinariosModel');
         $data = [
             "nombre" => $_POST['nombre'],
@@ -65,13 +65,13 @@ class Veterinarios extends BaseController
         return redirect('veterinarios/mostrar','refresh');
     }
 
-    public function delete($idVeterinario){
+    public function delete($idVeterinario){ // Funcion eliminar registro
         $veterinariosModel = model('VeterinariosModel');
         $veterinariosModel->delete($idVeterinario);
         return redirect('veterinarios/mostrar','refresh');
     }
 
-    public function editar($idVeterinario){
+    public function editar($idVeterinario){ // Funcion para editar registro
         $veterinariosModel = model('VeterinariosModel');
         $data['veterinarios'] = $veterinariosModel->find($idVeterinario);
 
@@ -83,7 +83,7 @@ class Veterinarios extends BaseController
     
     }
 
-    public function update(){
+    public function update(){ // Funcion para guardar los cambios
         $veterinariosModel = model('VeterinariosModel');
         $data = [
             "nombre" => $_POST['nombre'],
@@ -99,7 +99,7 @@ class Veterinarios extends BaseController
         return redirect('veterinarios/mostrar','refresh');
     }
 
-    public function buscar(){
+    public function buscar(){ //  Busqueda filtrada
         $veterinariosModel = model('VeterinariosModel');
         if(isset($_GET['nombre'])){
             $nombre = $_GET['nombre'];

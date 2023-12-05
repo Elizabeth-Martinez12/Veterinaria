@@ -6,9 +6,9 @@
             <img src="https://cdn-icons-png.flaticon.com/512/5397/5397386.png" alt="Regresar" width="41" height="41" />
             </a>
         <h2>Agregar Consulta</h2>
-            <form action="<?= base_url('index.php/consultas/insert'); ?>" method="POST">
+            <form action="<?= base_url('index.php/consultas/insert'); ?>" method="POST"> <!-- Metodo para agregrar los datos a la tabla --->
             <?= csrf_field() ?>
-                <div class="tipoConsulta"><label for="" class="form-label">Tipo de Consulta</label>
+                <div class="tipoConsulta"><label for="" class="form-label">Tipo de Consulta</label> <!-- Formulario --->
                 <input type="text" class="form-control" name ="tipoConsulta" id="tipoConsultas">
                 </div>
 
@@ -24,7 +24,7 @@
                 <input type="text" class="form-control" name ="nombreDueño" id="nombreDueño">
                 </div>
 
-                <div class="mb-3">
+                <div class="mb-3"> <!-- Llamado de datos de otra tabla de base de datos con un bucle PHP -->
                 <label for="veterinario" class="form-label">Veterinario</label>
                 <select name="veterinario" class="form-control">
                         <?php foreach($veterinarios as $veterinario) : ?>
@@ -43,7 +43,7 @@
                 <br>
                 
                 <div class="mb-3">
-                    <input type="submit" class="btn btn-success">
+                    <input type="submit" class="btn btn-success"> <!-- Boton para confirmar --->
                 </div>
             </form>
         </div>

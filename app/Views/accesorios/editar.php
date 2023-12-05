@@ -6,9 +6,9 @@
             <img src="https://cdn-icons-png.flaticon.com/512/5397/5397386.png" alt="Regresar" width="41" height="41" />
             </a>
             <h2>Editar Accesorio</h2>
-            <form action="<?= base_url('index.php/accesorios/update'); ?>" method="POST">
+            <form action="<?= base_url('index.php/accesorios/update'); ?>" method="POST"> <!-- Accion de guardar registros editados -->
             <?= csrf_field() ?>
-            <input type="hidden" name="id" value="<?= $accesorios->id ?>">
+            <input type="hidden" name="id" value="<?= $accesorios->id ?>"> <!-- Formulario -->
                 <div class="ilustracion"><label for="ilustracion" class="form-label">Imagen</label>
                 <input type="url" class="form-control" id="ilustracion" name="ilustracion" required value="<?= $accesorios->ilustracion ?>">
                 </div>

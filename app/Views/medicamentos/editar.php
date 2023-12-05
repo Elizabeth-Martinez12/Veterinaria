@@ -6,9 +6,9 @@
             <img src="https://cdn-icons-png.flaticon.com/512/5397/5397386.png" alt="Regresar" width="41" height="41" />
             </a>
             <h2>Editar medicamento</h2>
-            <form action="<?= base_url('index.php/medicamentos/update'); ?>" method="POST">
+            <form action="<?= base_url('index.php/medicamentos/update'); ?>" method="POST"> <!-- Guarda cambios -->
             <?= csrf_field() ?>
-            <input type="hidden" name="id" value="<?= $medicamento->id ?>">
+            <input type="hidden" name="id" value="<?= $medicamento->id ?>"> <!-- Formulario -->
                 <div class="imagen"><label for="imagen" class="form-label">Imagen</label>
                 <input type="url" class="form-control" id="imagen" name="imagen" required value="<?= $medicamento->imagen ?>">
                 </div>

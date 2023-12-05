@@ -6,9 +6,9 @@
             <img src="https://cdn-icons-png.flaticon.com/512/5397/5397386.png" alt="Regresar" width="41" height="41" />
             </a>
         <h2>Agregar Veterinario</h2>
-            <form action="<?= base_url('index.php/veterinarios/insert'); ?>" method="POST">
+            <form action="<?= base_url('index.php/veterinarios/insert'); ?>" method="POST"> <!-- Metodo para agregrar los datos a la tabla --->
             <?= csrf_field() ?>
-                <div class="nombre"><label for="" class="form-label">Nombre</label>
+                <div class="nombre"><label for="" class="form-label">Nombre</label> <!-- Formulario --->
                 <input type="text" class="form-control" name ="nombre" id="nombre">
                 </div>
 
@@ -38,7 +38,7 @@
                 <br>
                 
                 <div class="mb-3">
-                    <input type="submit" class="btn btn-success">
+                    <input type="submit" class="btn btn-success"><!-- Boton para confirmar --->
                 </div>
             </form>
         </div>

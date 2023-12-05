@@ -10,10 +10,10 @@ class Consultas extends BaseController
     {
         
     }
-    public function mostrar(){
+    public function mostrar(){   // Funcion de mostrar la cual presenta los datos contenidos en la base de datos
         $consultasModel = model('ConsultasModel');
         
-        $session = session();
+        $session = session(); // Proteccion de inicio de sesion por URL
         if($session->get('logged_in')!=TRUE){
             return redirect('consultas/mostrar','refresh');
         }
@@ -27,7 +27,7 @@ class Consultas extends BaseController
         view('common/footer');
     }
 
-    public function agregar(){
+    public function agregar(){ // Funcion agregar que permite realizar inserciones a la base de datos
         helper(['form','url']);
         $consultasModel = model('ConsultasModel');
         $veterinariosModel = model('VeterinariosModel');
@@ -57,7 +57,7 @@ class Consultas extends BaseController
         }
     }
 
-    public function insert(){
+    public function insert(){  // Funcion insert es la que guarda los datos
         $consultasModel = model('ConsultasModel');
         $data = [
             "tipoConsulta" => $_POST['tipoConsulta'],
@@ -72,13 +72,13 @@ class Consultas extends BaseController
         return redirect('consultas/mostrar','refresh');
     }
 
-    public function delete($id){
+    public function delete($id){  // Funcion eliminar
         $consultasModel = model('ConsultasModel');
         $consultasModel->delete($id);
         return redirect('consultas/mostrar','refresh');
     }
 
-    public function editar($id){
+    public function editar($id){ // Funcion editar que ayuda a modificar el contenido
         $consultasModel = model('ConsultasModel');
         $data['consulta'] = $consultasModel->find($id);
 
@@ -90,7 +90,7 @@ class Consultas extends BaseController
     
     }
 
-    public function update(){
+    public function update(){  // Funcion update que guarda los cambios procesados en la base de datos
         $consultasModel = model('ConsultasModel');
         $data = [
             "tipoConsulta" => $_POST['tipoConsulta'],
@@ -105,7 +105,7 @@ class Consultas extends BaseController
         return redirect('consultas/mostrar','refresh');
     }
 
-    public function buscar(){
+    public function buscar(){  // Funcion buscar que sirve para encontrar registros de forma filtrada
         $consultasModel = model('ConsultasModel');
         if(isset($_GET['tipoConsulta'])){
             $tipoConsulta = $_GET['tipoConsulta'];

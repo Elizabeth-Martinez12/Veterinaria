@@ -11,7 +11,7 @@ class HistorialMedico extends BaseController
         //
     }
 
-    public function mostrar1(){
+    public function mostrar1(){ // Funcion de mostrar la cual presenta los datos contenidos en la base de datos
         $historialMedicoModel = model('HistorialMedicoModel');
         
         $data['historialMedico1'] = $historialMedicoModel->findAll();
@@ -23,7 +23,7 @@ class HistorialMedico extends BaseController
         view('common/footer');
     }
 
-    public function mostrar($id){
+    public function mostrar($id){ // Misma funcion que la anterior
         $historialMedicoModel = model('HistorialMedicoModel');
         
         $data['historialMedico'] = $historialMedicoModel->find($id);
@@ -35,7 +35,7 @@ class HistorialMedico extends BaseController
         view('common/footer');
     }
 
-    public function agregar(){
+    public function agregar(){ // Funcion agregar que permite realizar inserciones a la base de datos
         helper(['form','url']);
         $historialMedicoModel = model('HistorialMedicoModel');
 
@@ -62,7 +62,7 @@ class HistorialMedico extends BaseController
         }
     }
 
-    public function insert(){
+    public function insert(){ // Funcion insert es la que guarda los datos
         $historialMedicoModel = model('HistorialMedicoModel');
         $data = [
             "imagen" => $_POST['imagen'],
@@ -76,13 +76,13 @@ class HistorialMedico extends BaseController
         return redirect('historialMedico/mostrar1','refresh');
     }
 
-    public function delete($id){
+    public function delete($id){ // Eliminar registro
         $historialMedicoModel = model('HistorialMedicoModel');
         $historialMedicoModel->delete($id);
         return redirect('historialMedico/mostrar1','refresh');
     }
 
-    public function editar($idhistorialMedico){
+    public function editar($idhistorialMedico){ // Modificar registro
         $historialMedicoModel = model('historialMedicoModel');
         $data['historialMedico'] = $historialMedicoModel->find($idhistorialMedico);
 
@@ -94,7 +94,7 @@ class HistorialMedico extends BaseController
     
     }
 
-    public function update(){
+    public function update(){ // Guardar cambios
         $historialMedicoModel = model('historialMedicoModel');
         $data = [
             "imagen" => $_POST['imagen'],
@@ -109,7 +109,7 @@ class HistorialMedico extends BaseController
         return redirect('historialMedico/mostrar1','refresh');
     }
 
-    public function buscar(){
+    public function buscar(){ // Busqueda filtrada
         $historialMedicoModel = model('historialMedicoModel');
         if(isset($_GET['nombre'])){
             $nombre = $_GET['nombre'];

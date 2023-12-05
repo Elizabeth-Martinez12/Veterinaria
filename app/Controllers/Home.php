@@ -35,22 +35,33 @@ class Home extends Controller
                 ->like('contrasenia', $contrasenia)
                 ->findAll();
 
-            if (count($data['home']) > 0) {
-                // Crear la sesión
-                $session = session();
+                if (count($data['home']) > 0) {
+                    // Crear la sesión
+                    $session = session();
+        
+                    $newdata = [
+                        'id' => $data['home'][0]->id,
+                        'nombre' => $data['home'][0]->nombre,
+                        'rol' => $this->request->getPost('rol'),
+                        'logged_in' => true,
+                    ];
+        
+                    $session->set($newdata);
 
-                $newdata = [
-                    'id' => $data['home'][0]->id,
-                    'nombre' => $data['home'][0]->nombre,
-                    'logged_in' => true,
-                ];
-
-                $session->set($newdata);
-
-                return redirect()->to('consultas/mostrar');
-            } else {
-                return redirect()->to('consultas/mostrar');
+                    // Redireccionar según el valor de "rol"
+                    $rol = $this->request->getPost('rol');
+                    switch ($rol) {
+                    case 'Administrador':
+                    return redirect()->to('consultas/mostrar');
+                    case 'Usuario':
+                    return redirect()->to('cliente/mostrar');
+                    default:
+                    return redirect()->to('consultas/mostrar');
             }
+        } else {
+            return redirect()->to('consultas/mostrar');
         }
+    }
+
     }
 }

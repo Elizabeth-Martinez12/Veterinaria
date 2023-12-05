@@ -6,9 +6,9 @@
             <img src="https://cdn-icons-png.flaticon.com/512/5397/5397386.png" alt="Regresar" width="41" height="41" />
             </a>
             <h2>Editar consulta</h2>
-            <form action="<?= base_url('index.php/consultas/update'); ?>" method="POST">
+            <form action="<?= base_url('index.php/consultas/update'); ?>" method="POST"> <!-- Guardar edicion -->
             <?= csrf_field() ?>
-            <input type="hidden" name="id" value="<?= $consulta->id ?>">
+            <input type="hidden" name="id" value="<?= $consulta->id ?>"> <!-- Formulario -->
                 <div class="tipoConsulta"><label for="tipoConsulta" class="form-label">Tipo de consulta</label>
                 <input type="text" class="form-control" id="tipoConsulta" name="tipoConsulta" pattern="[A-Za-zÁÉÍÓÚáéíóúñÑ\s]+" title="Ingresa solo letras, sin números ni caracteres especiales" required value="<?= $consulta->tipoConsulta ?>">
                 </div>

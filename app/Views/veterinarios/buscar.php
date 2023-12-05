@@ -5,7 +5,7 @@
             <a href="<?php echo base_url('index.php/veterinarios/mostrar'); ?>">
             <img src="https://cdn-icons-png.flaticon.com/512/5397/5397386.png" alt="Regresar" width="41" height="41" />
             </a>
-            <h2>Buscar Veterinario</h2>
+            <h2>Buscar Veterinario</h2> <!-- campos de busqueda -->
                 <label for="nombre">Nombre</label>
                 <input type="text" class="form-control" name="nombre">
                 <label for="apellidoPaterno">Apellido Paterno</label>
@@ -32,7 +32,7 @@
     ?>
     <div class="row">
         <div class="col-12">
-        <table class="table table-striped table-bordered">
+        <table class="table table-striped table-bordered"> <!-- Tabla de contenido -->
                     <thead class="thead-dark">
                 <thead>
                     <th>NOMBRE</th>
@@ -44,7 +44,7 @@
                     <th>ACCIONES</th>
                 </thead>
                 <tbody>
-                <?php foreach($veterinarios as $veterinario):?>
+                <?php foreach($veterinarios as $veterinario):?> <!-- Bucle PHP -->
                         <tr>
                             <td><?=$veterinario->nombre ?></td>
                             <td><?=$veterinario->apellidoPaterno ?></td>

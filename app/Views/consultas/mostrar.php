@@ -1,9 +1,9 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <h2>Consultas</h2>
+            <h2 class="text-center mb-4">Consultas</h2>
             <div class="table-responsive">
-                <table class="table table-striped table-bordered">
+                <table class="table table-striped table-bordered"> <!-- Tabla en donde se presentaran los datos -->
                     <thead class="thead-dark">
                         <tr>
                             <th>TIPO DE CONSULTA</th>
@@ -17,7 +17,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                    <?php foreach($consultas as $consulta):?>
+                    <?php foreach($consultas as $consulta):?> <!-- Extraccion de datos por medio de bucle PHP -->
                         <tr>
                             <td><?=$consulta->tipoConsulta ?></td>
                             <td><?=$consulta->nombrePaciente ?></td>

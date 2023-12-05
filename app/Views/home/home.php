@@ -6,16 +6,16 @@
     <title>Iniciar Sesión</title>
     <style>
         body {
-            margin: 50;
-            padding: 50;
+            margin: 100;
+            padding: 100;
             font-family: Arial, Helvetica, sans-serif;
             background-color: #424348; /* Color de fondo */
         }
         
         .container {
-            width: 100%;
+            width: 50%;
             height: 100vh;
-            display: flex;
+            display: 90px;
             justify-content: center;
             align-items: center;
         }
@@ -23,7 +23,7 @@
         .login-box {
             background-color: #fff;
             padding: 100px;
-            border-radius: 10px;
+            border-radius: 50px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
             text-align: center; /* Centra el contenido */
         }
@@ -75,6 +75,13 @@
                 </div>
                 <div class="mb-3">
                     <input type="password" class="form-control" id="contrasenia" name="contrasenia" placeholder="Contraseña" required>
+                </div>
+                <div class="mb-3">
+                    <label for="rol">¿Quien eres?</label>
+                    <select name="rol" id="rol" class="form-control" required>
+                        <option value="Administrador">Administrador</option>
+                        <option value="Usuario">Usuario</option>
+                    </select>
                 </div>
                 <input type="submit" value="Iniciar Sesión">
             </form>

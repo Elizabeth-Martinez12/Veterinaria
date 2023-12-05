@@ -1,9 +1,9 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <h2>Veterinarios</h2>
+            <h2 class="text-center mb-2">Veterinarios</h2>
             <div class="table-responsive">
-                <table class="table table-striped table-bordered">
+                <table class="table table-striped table-bordered"> <!-- Tabla de contenido -->
                     <thead class="thead-dark">
                 <thead>
                     <th>NOMBRE</th>
@@ -15,7 +15,7 @@
                     <th>ACCIONES</th>
                 </thead>
                 <tbody>
-                <?php foreach($veterinarios as $veterinario):?>
+                <?php foreach($veterinarios as $veterinario):?> <!-- Bucle PHP para extraer contenido -->
                         <tr>
                             <td><?=$veterinario->nombre ?></td>
                             <td><?=$veterinario->apellidoPaterno ?></td>

@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-expand-lg bg-info">
   <div class="container-fluid">
   <img src="https://cdn.pixabay.com/photo/2021/01/16/11/13/dogs-5921796_1280.png" width="70" height="70" />
@@ -44,6 +45,16 @@
             <li><a class="dropdown-item" href="<?=base_url('index.php/accesorios/mostrar');?>">Mostrar</a></li>
             <li><a class="dropdown-item" href="<?=base_url('index.php/accesorios/agregar')?>">Agregar</a></li>
             <li><a class="dropdown-item" href="<?=base_url('index.php/accesorios/buscar');?>">Buscar</a></li>
+        </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Ventas
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="<?=base_url('index.php/ventas/mostrar');?>">Mostrar</a></li>
+            <li><a class="dropdown-item" href="<?=base_url('index.php/ventas/agregar')?>">Agregar</a></li>
+            <li><a class="dropdown-item" href="<?=base_url('index.php/ventas/buscar');?>">Buscar</a></li>
         </ul>
         </li>
         <li class="nav-item dropdown">

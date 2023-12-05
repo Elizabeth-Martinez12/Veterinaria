@@ -5,10 +5,10 @@
         <a href="<?php echo base_url('index.php/veterinarios/mostrar'); ?>">
             <img src="https://cdn-icons-png.flaticon.com/512/5397/5397386.png" alt="Regresar" width="41" height="41" />
             </a>
-            <h2>Editar v$veterinarios</h2>
-            <form action="<?= base_url('index.php/veterinarios/update'); ?>" method="POST">
+            <h2>Editar veterinarios</h2> 
+            <form action="<?= base_url('index.php/veterinarios/update'); ?>" method="POST"> <!-- Guarda cambios en base -->
             <?= csrf_field() ?>
-            <input type="hidden" name="id" value="<?= $veterinarios->id ?>">
+            <input type="hidden" name="id" value="<?= $veterinarios->id ?>"> <!-- Formulario -->
                 <div class="nombre"><label for="nombre" class="form-label">Nombre</label>
                 <input type="text" class="form-control" id="nombre" name="nombre" pattern="[A-Za-zÁÉÍÓÚáéíóúñÑ\s]+" title="Ingresa solo letras, sin números ni caracteres especiales" required value="<?= $veterinarios->nombre ?>">
                 </div>

@@ -1,0 +1,1070 @@
+INFO - 2023-12-05 02:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 02:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 02:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 02:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 02:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 02:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 02:50:30 --> Undefined variable $precio
+in APPPATH\Views\medicamentos\mostrar.php on line 57.
+ 1 APPPATH\Views\medicamentos\mostrar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $precio', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\medicamentos\\mostrar.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\medicamentos\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('medicamentos/mostrar', [], true)
+ 5 APPPATH\Controllers\Medicamentos.php(22): view('medicamentos/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Medicamentos->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 02:50:31 --> Undefined variable $precio
+in APPPATH\Views\medicamentos\mostrar.php on line 57.
+ 1 APPPATH\Views\medicamentos\mostrar.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $precio', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\medicamentos\\mostrar.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\medicamentos\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('medicamentos/mostrar', [], true)
+ 5 APPPATH\Controllers\Medicamentos.php(22): view('medicamentos/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Medicamentos->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Medicamentos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+INFO - 2023-12-05 03:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 03:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 03:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 03:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 04:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:00:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 05:39:05 --> Undefined variable $rol
+in APPPATH\Views\common\menu.php on line 7.
+ 1 APPPATH\Views\common\menu.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rol', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\common\\menu.php', 7)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\common\\menu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('common/menu', [], true)
+ 5 APPPATH\Controllers\Cliente.php(16): view('common/menu')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 05:43:07 --> Call to a member function insert() on null
+in APPPATH\Controllers\Cliente.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->insert()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 05:43:31 --> Call to a member function insert() on null
+in APPPATH\Controllers\Cliente.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->insert()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 05:43:59 --> Call to a member function insert() on null
+in APPPATH\Controllers\Cliente.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->insert()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 05:45:46 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(748): CodeIgniter\BaseModel->transformDataToArray(false, 'insert')
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert(false, true)
+ 4 APPPATH\Controllers\Cliente.php(62): CodeIgniter\Model->insert(false)
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->insert()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 05:46:08 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\BaseModel.php(748): CodeIgniter\BaseModel->transformDataToArray(false, 'insert')
+ 3 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert(false, true)
+ 4 APPPATH\Controllers\Cliente.php(62): CodeIgniter\Model->insert(false)
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->insert()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+INFO - 2023-12-05 05:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:55:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 05:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 06:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 06:02:46 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Cliente.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->buscar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+INFO - 2023-12-05 06:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 06:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 06:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 06:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 06:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 06:10:11 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Cliente.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->buscar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+INFO - 2023-12-05 06:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 06:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 06:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 06:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 06:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 06:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 06:19:54 --> Invalid file: "cliente/mostrar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cliente/mostrar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cliente/mostrar', [], true)
+ 3 APPPATH\Controllers\Cliente.php(20): view('cliente/mostrar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Cliente->mostrar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 06:20:26 --> Invalid file: "cliente/mostrar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cliente/mostrar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cliente/mostrar', [], true)
+ 3 APPPATH\Controllers\Cliente.php(20): view('cliente/mostrar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->mostrar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 06:20:27 --> Invalid file: "cliente/mostrar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cliente/mostrar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cliente/mostrar', [], true)
+ 3 APPPATH\Controllers\Cliente.php(20): view('cliente/mostrar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->mostrar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 06:21:01 --> Invalid file: "cliente/mostrar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cliente/mostrar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cliente/mostrar', [], true)
+ 3 APPPATH\Controllers\Cliente.php(20): view('cliente/mostrar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->mostrar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 06:21:02 --> Invalid file: "cliente/mostrar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cliente/mostrar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cliente/mostrar', [], true)
+ 3 APPPATH\Controllers\Cliente.php(20): view('cliente/mostrar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->mostrar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+INFO - 2023-12-05 06:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 06:21:59 --> Invalid file: "cliente/mostrar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cliente/mostrar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cliente/mostrar', [], true)
+ 3 APPPATH\Controllers\Cliente.php(16): view('cliente/mostrar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->mostrar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 06:24:28 --> Invalid file: "cliente/mostrar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cliente/mostrar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cliente/mostrar', [], true)
+ 3 APPPATH\Controllers\Cliente.php(16): view('cliente/mostrar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->mostrar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 06:24:29 --> Invalid file: "cliente/mostrar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cliente/mostrar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cliente/mostrar', [], true)
+ 3 APPPATH\Controllers\Cliente.php(16): view('cliente/mostrar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->mostrar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 06:27:47 --> Cannot use object of type stdClass as array
+in APPPATH\Views\cliente\mostrar.php on line 21.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cliente/mostrar', [], true)
+ 4 APPPATH\Controllers\Cliente.php(16): view('cliente/mostrar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->mostrar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 06:27:48 --> Cannot use object of type stdClass as array
+in APPPATH\Views\cliente\mostrar.php on line 21.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cliente/mostrar', [], true)
+ 4 APPPATH\Controllers\Cliente.php(16): view('cliente/mostrar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->mostrar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 06:27:49 --> Cannot use object of type stdClass as array
+in APPPATH\Views\cliente\mostrar.php on line 21.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cliente/mostrar', [], true)
+ 4 APPPATH\Controllers\Cliente.php(16): view('cliente/mostrar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->mostrar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+INFO - 2023-12-05 06:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 06:27:57 --> Cannot use object of type stdClass as array
+in APPPATH\Views\cliente\mostrar.php on line 21.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cliente/mostrar', [], true)
+ 4 APPPATH\Controllers\Cliente.php(16): view('cliente/mostrar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->mostrar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 06:38:13 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Cliente.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->buscar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 06:38:44 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Cliente.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->buscar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 06:38:45 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Cliente.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->buscar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 06:38:45 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Cliente.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->buscar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 06:39:05 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Cliente.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->buscar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 06:39:06 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Cliente.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->buscar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 06:39:07 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Cliente.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->buscar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 06:39:14 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Cliente.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->buscar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 06:42:03 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Cliente.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->buscar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 06:42:05 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Cliente.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->buscar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 06:42:09 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Cliente.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->buscar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 06:43:38 --> Undefined variable $cliente
+in APPPATH\Views\cliente\buscar.php on line 47.
+ 1 APPPATH\Views\cliente\buscar.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cliente', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\cliente\\buscar.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\cliente\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cliente/buscar', [], true)
+ 5 APPPATH\Controllers\Cliente.php(78): view('cliente/buscar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 06:43:40 --> Undefined variable $cliente
+in APPPATH\Views\cliente\buscar.php on line 47.
+ 1 APPPATH\Views\cliente\buscar.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cliente', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\cliente\\buscar.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\cliente\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cliente/buscar', [], true)
+ 5 APPPATH\Controllers\Cliente.php(78): view('cliente/buscar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 06:46:44 --> Undefined variable $consultas
+in APPPATH\Views\cliente\buscar.php on line 47.
+ 1 APPPATH\Views\cliente\buscar.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $consultas', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\cliente\\buscar.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\cliente\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cliente/buscar', [], true)
+ 5 APPPATH\Controllers\Cliente.php(79): view('cliente/buscar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+INFO - 2023-12-05 06:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 06:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 07:03:46 --> Call to a member function findAll() on null
+in APPPATH\Controllers\Ventas.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->mostrar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 07:06:02 --> Cannot use object of type stdClass as array
+in APPPATH\Views\ventas\agregar.php on line 12.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ventas/agregar', [...], true)
+ 4 APPPATH\Controllers\Ventas.php(33): view('ventas/agregar', [...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->agregar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 07:07:08 --> Cannot use object of type stdClass as array
+in APPPATH\Views\ventas\agregar.php on line 12.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ventas/agregar', [...], true)
+ 4 APPPATH\Controllers\Ventas.php(33): view('ventas/agregar', [...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->agregar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 07:14:27 --> Undefined variable $ventasModel
+in APPPATH\Controllers\Ventas.php on line 16.
+ 1 APPPATH\Controllers\Ventas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ventasModel', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Controllers\\Ventas.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ventas->agregar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 07:14:28 --> Undefined variable $ventasModel
+in APPPATH\Controllers\Ventas.php on line 16.
+ 1 APPPATH\Controllers\Ventas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ventasModel', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Controllers\\Ventas.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ventas->agregar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 07:14:55 --> Cannot use object of type stdClass as array
+in APPPATH\Views\ventas\agregar.php on line 12.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ventas/agregar', [...], true)
+ 4 APPPATH\Controllers\Ventas.php(34): view('ventas/agregar', [...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ventas->agregar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 07:14:56 --> Cannot use object of type stdClass as array
+in APPPATH\Views\ventas\agregar.php on line 12.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ventas/agregar', [...], true)
+ 4 APPPATH\Controllers\Ventas.php(34): view('ventas/agregar', [...], [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ventas->agregar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 07:23:55 --> Undefined array key "id"
+in APPPATH\Controllers\Ventas.php on line 42.
+ 1 APPPATH\Controllers\Ventas.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Controllers\\Ventas.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ventas->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 07:24:30 --> Undefined array key "nombre"
+in APPPATH\Controllers\Ventas.php on line 42.
+ 1 APPPATH\Controllers\Ventas.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Controllers\\Ventas.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ventas->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 07:24:34 --> Undefined array key "nombre"
+in APPPATH\Controllers\Ventas.php on line 42.
+ 1 APPPATH\Controllers\Ventas.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Controllers\\Ventas.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ventas->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 07:24:49 --> Undefined array key "nombre"
+in APPPATH\Controllers\Ventas.php on line 42.
+ 1 APPPATH\Controllers\Ventas.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Controllers\\Ventas.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ventas->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 07:25:02 --> Undefined array key "nombre"
+in APPPATH\Controllers\Ventas.php on line 42.
+ 1 APPPATH\Controllers\Ventas.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Controllers\\Ventas.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ventas->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 07:25:17 --> Undefined array key "id"
+in APPPATH\Controllers\Ventas.php on line 42.
+ 1 APPPATH\Controllers\Ventas.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Controllers\\Ventas.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ventas->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 07:27:13 --> Undefined array key "nombre"
+in APPPATH\Controllers\Ventas.php on line 42.
+ 1 APPPATH\Controllers\Ventas.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Controllers\\Ventas.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ventas->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 07:31:26 --> Undefined array key "nombre"
+in APPPATH\Controllers\Ventas.php on line 42.
+ 1 APPPATH\Controllers\Ventas.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Controllers\\Ventas.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ventas->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 07:33:23 --> Undefined array key "nombre"
+in APPPATH\Controllers\Ventas.php on line 43.
+ 1 APPPATH\Controllers\Ventas.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Controllers\\Ventas.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ventas->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 07:35:21 --> Undefined array key "nombre"
+in APPPATH\Controllers\Ventas.php on line 43.
+ 1 APPPATH\Controllers\Ventas.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Controllers\\Ventas.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ventas->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+ERROR - 2023-12-05 07:36:58 --> mysqli_sql_exception: Column 'nombre' cannot be null in C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `Ve...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Ve...')
+#2 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Ve...')
+#3 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Ve...', Array, false)
+#4 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\eliza\OneDrive\Documentos\Veterinaria\app\Controllers\Ventas.php(47): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(919): App\Controllers\ventas->insert()
+#9 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+#10 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\eliza\OneDrive\Documentos\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#13 {main}
+CRITICAL - 2023-12-05 07:36:58 --> Column 'nombre' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Ventas` (`nombre`, `cantidad`, `fechaVenta`) VALUES (:nombre:, :cantidad:, :fechaVenta:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 APPPATH\Controllers\Ventas.php(47): CodeIgniter\Model->insert([...], false)
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ventas->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+ERROR - 2023-12-05 07:38:28 --> mysqli_sql_exception: Column 'nombre' cannot be null in C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `Ve...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Ve...')
+#2 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Ve...')
+#3 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Ve...', Array, false)
+#4 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\eliza\OneDrive\Documentos\Veterinaria\app\Controllers\Ventas.php(47): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(919): App\Controllers\ventas->insert()
+#9 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+#10 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\eliza\OneDrive\Documentos\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#13 {main}
+CRITICAL - 2023-12-05 07:38:28 --> Column 'nombre' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Ventas` (`nombre`, `cantidad`, `fechaVenta`) VALUES (:nombre:, :cantidad:, :fechaVenta:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 APPPATH\Controllers\Ventas.php(47): CodeIgniter\Model->insert([...], false)
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ventas->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+ERROR - 2023-12-05 07:40:20 --> mysqli_sql_exception: Column 'nombre' cannot be null in C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `Ve...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Ve...')
+#2 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Ve...')
+#3 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Ve...', Array, false)
+#4 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\eliza\OneDrive\Documentos\Veterinaria\app\Controllers\Ventas.php(47): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(919): App\Controllers\ventas->insert()
+#9 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+#10 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\eliza\OneDrive\Documentos\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#13 {main}
+CRITICAL - 2023-12-05 07:40:20 --> Column 'nombre' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Ventas` (`nombre`, `cantidad`, `fechaVenta`) VALUES (:nombre:, :cantidad:, :fechaVenta:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 APPPATH\Controllers\Ventas.php(47): CodeIgniter\Model->insert([...], false)
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ventas->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+ERROR - 2023-12-05 08:00:16 --> mysqli_sql_exception: Column 'nombre' cannot be null in C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `Ve...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Ve...')
+#2 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Ve...')
+#3 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Ve...', Array, false)
+#4 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\eliza\OneDrive\Documentos\Veterinaria\app\Controllers\Ventas.php(48): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(919): App\Controllers\ventas->insert()
+#9 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+#10 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\eliza\OneDrive\Documentos\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#13 {main}
+CRITICAL - 2023-12-05 08:00:16 --> Column 'nombre' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Ventas` (`nombre`, `cantidad`, `fechaVenta`) VALUES (:nombre:, :cantidad:, :fechaVenta:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 APPPATH\Controllers\Ventas.php(48): CodeIgniter\Model->insert([...], false)
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ventas->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+ERROR - 2023-12-05 08:06:30 --> mysqli_sql_exception: Column 'nombre' cannot be null in C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `Ve...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Ve...')
+#2 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Ve...')
+#3 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Ve...', Array, false)
+#4 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\eliza\OneDrive\Documentos\Veterinaria\app\Controllers\Ventas.php(47): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(919): App\Controllers\ventas->insert()
+#9 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+#10 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\eliza\OneDrive\Documentos\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#13 {main}
+CRITICAL - 2023-12-05 08:06:30 --> Column 'nombre' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Ventas` (`nombre`, `cantidad`, `fechaVenta`) VALUES (:nombre:, :cantidad:, :fechaVenta:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 APPPATH\Controllers\Ventas.php(47): CodeIgniter\Model->insert([...], false)
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ventas->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+ERROR - 2023-12-05 08:07:49 --> mysqli_sql_exception: Column 'nombre' cannot be null in C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `Ve...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Ve...')
+#2 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Ve...')
+#3 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Ve...', Array, false)
+#4 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\eliza\OneDrive\Documentos\Veterinaria\app\Controllers\Ventas.php(47): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(919): App\Controllers\ventas->insert()
+#9 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+#10 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\eliza\OneDrive\Documentos\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#13 {main}
+CRITICAL - 2023-12-05 08:07:49 --> Column 'nombre' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Ventas` (`nombre`, `cantidad`, `fechaVenta`) VALUES (:nombre:, :cantidad:, :fechaVenta:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 APPPATH\Controllers\Ventas.php(47): CodeIgniter\Model->insert([...], false)
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ventas->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+ERROR - 2023-12-05 08:09:54 --> mysqli_sql_exception: Column 'nombre' cannot be null in C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `Ve...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Ve...')
+#2 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Ve...')
+#3 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Ve...', Array, false)
+#4 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\eliza\OneDrive\Documentos\Veterinaria\app\Controllers\Ventas.php(47): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(919): App\Controllers\ventas->insert()
+#9 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+#10 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\eliza\OneDrive\Documentos\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#13 {main}
+CRITICAL - 2023-12-05 08:09:54 --> Column 'nombre' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Ventas` (`nombre`, `cantidad`, `fechaVenta`) VALUES (:nombre:, :cantidad:, :fechaVenta:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 APPPATH\Controllers\Ventas.php(47): CodeIgniter\Model->insert([...], false)
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ventas->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+ERROR - 2023-12-05 08:10:07 --> mysqli_sql_exception: Column 'fechaVenta' cannot be null in C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `Ve...', 0)
+#1 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Ve...')
+#2 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Ve...')
+#3 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Ve...', Array, false)
+#4 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\eliza\OneDrive\Documentos\Veterinaria\app\Controllers\Ventas.php(47): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(919): App\Controllers\ventas->insert()
+#9 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+#10 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\eliza\OneDrive\Documentos\Veterinaria\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\eliza\OneDrive\Documentos\Veterinaria\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\...')
+#13 {main}
+CRITICAL - 2023-12-05 08:10:07 --> Column 'fechaVenta' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Ventas` (`nombre`, `cantidad`, `fechaVenta`) VALUES (:nombre:, :cantidad:, :fechaVenta:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 APPPATH\Controllers\Ventas.php(47): CodeIgniter\Model->insert([...], false)
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ventas->insert()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 08:11:53 --> Cannot use object of type stdClass as array
+in APPPATH\Views\ventas\mostrar.php on line 18.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ventas/mostrar', [], true)
+ 4 APPPATH\Controllers\Ventas.php(61): view('ventas/mostrar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ventas->mostrar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 08:17:13 --> Class "App\Controllers\VentasModel" not found
+in APPPATH\Controllers\Ventas.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ventas->mostrar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ventas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 08:21:22 --> Attempt to read property "id" on array
+in APPPATH\Views\ventas\mostrar.php on line 26.
+ 1 APPPATH\Views\ventas\mostrar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\ventas\\mostrar.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\ventas\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ventas/mostrar', [], true)
+ 5 APPPATH\Controllers\Ventas.php(63): view('ventas/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 08:22:52 --> Attempt to read property "id" on array
+in APPPATH\Views\ventas\mostrar.php on line 26.
+ 1 APPPATH\Views\ventas\mostrar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\ventas\\mostrar.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\ventas\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ventas/mostrar', [], true)
+ 5 APPPATH\Controllers\Ventas.php(63): view('ventas/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 08:22:53 --> Attempt to read property "id" on array
+in APPPATH\Views\ventas\mostrar.php on line 26.
+ 1 APPPATH\Views\ventas\mostrar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\ventas\\mostrar.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\ventas\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ventas/mostrar', [], true)
+ 5 APPPATH\Controllers\Ventas.php(63): view('ventas/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 08:23:04 --> Attempt to read property "id" on array
+in APPPATH\Views\ventas\mostrar.php on line 26.
+ 1 APPPATH\Views\ventas\mostrar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\ventas\\mostrar.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\ventas\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ventas/mostrar', [], true)
+ 5 APPPATH\Controllers\Ventas.php(63): view('ventas/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 08:36:31 --> Cannot use object of type stdClass as array
+in APPPATH\Views\ventas\mostrar.php on line 42.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ventas/mostrar', [], true)
+ 4 APPPATH\Controllers\Ventas.php(65): view('ventas/mostrar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->mostrar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 08:36:32 --> Cannot use object of type stdClass as array
+in APPPATH\Views\ventas\mostrar.php on line 42.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ventas/mostrar', [], true)
+ 4 APPPATH\Controllers\Ventas.php(65): view('ventas/mostrar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->mostrar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 08:36:42 --> Cannot use object of type stdClass as array
+in APPPATH\Views\ventas\mostrar.php on line 42.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ventas/mostrar', [], true)
+ 4 APPPATH\Controllers\Ventas.php(65): view('ventas/mostrar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->mostrar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 08:36:43 --> Cannot use object of type stdClass as array
+in APPPATH\Views\ventas\mostrar.php on line 42.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ventas/mostrar', [], true)
+ 4 APPPATH\Controllers\Ventas.php(65): view('ventas/mostrar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->mostrar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 08:36:44 --> Cannot use object of type stdClass as array
+in APPPATH\Views\ventas\mostrar.php on line 42.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ventas/mostrar', [], true)
+ 4 APPPATH\Controllers\Ventas.php(65): view('ventas/mostrar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->mostrar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 08:38:06 --> Cannot use object of type stdClass as array
+in APPPATH\Views\ventas\mostrar.php on line 42.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ventas/mostrar', [], true)
+ 4 APPPATH\Controllers\Ventas.php(66): view('ventas/mostrar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->mostrar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 08:38:07 --> Cannot use object of type stdClass as array
+in APPPATH\Views\ventas\mostrar.php on line 42.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ventas/mostrar', [], true)
+ 4 APPPATH\Controllers\Ventas.php(66): view('ventas/mostrar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->mostrar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 08:38:08 --> Cannot use object of type stdClass as array
+in APPPATH\Views\ventas\mostrar.php on line 42.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ventas/mostrar', [], true)
+ 4 APPPATH\Controllers\Ventas.php(66): view('ventas/mostrar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->mostrar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 08:38:43 --> Cannot use object of type stdClass as array
+in APPPATH\Views\ventas\mostrar.php on line 42.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ventas/mostrar', [], true)
+ 4 APPPATH\Controllers\Ventas.php(66): view('ventas/mostrar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->mostrar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 08:38:44 --> Cannot use object of type stdClass as array
+in APPPATH\Views\ventas\mostrar.php on line 42.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ventas/mostrar', [], true)
+ 4 APPPATH\Controllers\Ventas.php(66): view('ventas/mostrar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->mostrar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 08:38:47 --> Cannot use object of type stdClass as array
+in APPPATH\Views\ventas\mostrar.php on line 42.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ventas/mostrar', [], true)
+ 4 APPPATH\Controllers\Ventas.php(66): view('ventas/mostrar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->mostrar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+INFO - 2023-12-05 08:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 08:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 08:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 08:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 09:18:09 --> Undefined variable $consultas
+in APPPATH\Views\ventas\buscar.php on line 47.
+ 1 APPPATH\Views\ventas\buscar.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $consultas', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\ventas\\buscar.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\ventas\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ventas/buscar', [], true)
+ 5 APPPATH\Controllers\Ventas.php(96): view('ventas/buscar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+INFO - 2023-12-05 09:34:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 09:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 09:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 09:49:47 --> Undefined variable $ventas
+in APPPATH\Views\cliente\buscar.php on line 70.
+ 1 APPPATH\Views\cliente\buscar.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ventas', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\cliente\\buscar.php', 70)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\cliente\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cliente/buscar', [], true)
+ 5 APPPATH\Controllers\Cliente.php(79): view('cliente/buscar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 10:12:06 --> Invalid file: "medicamentosUsuario/buscar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('medicamentosUsuario/buscar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('medicamentosUsuario/buscar', [], true)
+ 3 APPPATH\Controllers\MedicamentosUsuarios.php(49): view('medicamentosUsuario/buscar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MedicamentosUsuarios->buscar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MedicamentosUsuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 10:13:42 --> Undefined variable $cliente
+in APPPATH\Views\cliente\buscar.php on line 47.
+ 1 APPPATH\Views\cliente\buscar.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cliente', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\cliente\\buscar.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\cliente\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cliente/buscar', [], true)
+ 5 APPPATH\Controllers\Cliente.php(79): view('cliente/buscar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 10:15:28 --> Invalid file: "medicamentosUsuario/buscar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('medicamentosUsuario/buscar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('medicamentosUsuario/buscar', [], true)
+ 3 APPPATH\Controllers\MedicamentosUsuarios.php(49): view('medicamentosUsuario/buscar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MedicamentosUsuarios->buscar()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MedicamentosUsuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 10:49:31 --> Class "App\Controllers\VentasModel" not found
+in APPPATH\Controllers\VentasUsuarios.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VentasUsuarios->mostrar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentasUsuarios))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 10:51:55 --> Undefined variable $ventas
+in APPPATH\Views\ventasUsuario\mostrar.php on line 39.
+ 1 APPPATH\Views\ventasUsuario\mostrar.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ventas', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\ventasUsuario\\mostrar.php', 39)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\ventasUsuario\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ventasUsuario/mostrar', [], true)
+ 5 APPPATH\Controllers\VentasUsuarios.php(18): view('ventasUsuario/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VentasUsuarios->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VentasUsuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+INFO - 2023-12-05 11:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 11:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 11:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 11:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-05 11:15:41 --> Undefined variable $historialMedico
+in APPPATH\Views\historialMedicoUsuario\mostrar.php on line 14.
+ 1 APPPATH\Views\historialMedicoUsuario\mostrar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $historialMedico', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\historialMedicoUsuario\\mostrar.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\historialMedicoUsuario\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('historialMedicoUsuario/mostrar', [], true)
+ 5 APPPATH\Controllers\HistorialMedicoUsuario.php(29): view('historialMedicoUsuario/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\HistorialMedicoUsuario->mostrar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMedicoUsuario))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-05 11:17:04 --> Undefined variable $historialMedico
+in APPPATH\Views\historialMedicoUsuario\buscar.php on line 31.
+ 1 APPPATH\Views\historialMedicoUsuario\buscar.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $historialMedico', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\historialMedicoUsuario\\buscar.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\historialMedicoUsuario\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('historialMedicoUsuario/buscar', [], true)
+ 5 APPPATH\Controllers\HistorialMedicoUsuario.php(125): view('historialMedicoUsuario/buscar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\HistorialMedicoUsuario->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMedicoUsuario))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+INFO - 2023-12-05 11:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-05 11:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -11,7 +11,7 @@ class Accesorios extends BaseController
         //
     }
 
-    public function mostrar(){
+    public function mostrar(){ // Funcion de mostrar la cual presenta los datos contenidos en la base de datos
         $accesoriosModel = model('AccesoriosModel');
         
         $data['accesorios'] = $accesoriosModel->findAll();
@@ -23,7 +23,7 @@ class Accesorios extends BaseController
         view('common/footer');
     }
 
-    public function agregar(){
+    public function agregar(){ // Funcion agregar que permite realizar inserciones a la base de datos
         helper(['form','url']);
         $accesoriosModel = model('AccesoriosModel');
 
@@ -50,7 +50,7 @@ class Accesorios extends BaseController
         }
     }
 
-    public function insert(){
+    public function insert(){ // Funcion insert es la que guarda los datos
         $accesoriosModel = model('AccesoriosModel');
         $data = [
             "ilustracion" => $_POST['ilustracion'],
@@ -65,13 +65,13 @@ class Accesorios extends BaseController
         return redirect('accesorios/mostrar','refresh');
     }
 
-    public function delete($idAccesorios){
+    public function delete($idAccesorios){ // Eliminar registro
         $accesoriosModel = model('AccesoriosModel');
         $accesoriosModel->delete($idAccesorios);
         return redirect('accesorios/mostrar','refresh');
     }
 
-    public function editar($idAccesorios){
+    public function editar($idAccesorios){ // Modificar registro
         $accesoriosModel = model('AccesoriosModel');
         $data['accesorios'] = $accesoriosModel->find($idAccesorios);
 
@@ -83,7 +83,7 @@ class Accesorios extends BaseController
     
     }
 
-    public function update(){
+    public function update(){ // Guardar cambios
         $accesoriosModel = model('AccesoriosModel');
         $data = [
             "ilustracion" => $_POST['ilustracion'],
@@ -99,7 +99,7 @@ class Accesorios extends BaseController
         return redirect('accesorios/mostrar','refresh');
     }
 
-    public function buscar(){
+    public function buscar(){ // Busqueda filtrada
         $accesoriosModel = model('AccesoriosModel');
         if(isset($_GET['nombre'])){
             $nombre=$_GET['nombre'];

@@ -11,7 +11,7 @@ class Medicamentos extends BaseController
         //
     }
 
-    public function mostrar(){
+    public function mostrar(){ // Funcion de mostrar la cual presenta los datos contenidos en la base de datos
         $medicamentosModel = model('MedicamentosModel');
         
         $data['medicamentos'] = $medicamentosModel->findAll();
@@ -23,7 +23,7 @@ class Medicamentos extends BaseController
         view('common/footer');
     }
 
-    public function agregar(){
+    public function agregar(){ // Funcion agregar que permite realizar inserciones a la base de datos
         helper(['form','url']);
         $medicamentosModel = model('MedicamentosModel');
 
@@ -50,7 +50,7 @@ class Medicamentos extends BaseController
         }
     }
 
-    public function insert(){
+    public function insert(){ // Funcion insert es la que guarda los datos
         $medicamentosModel = model('MedicamentosModel');
         $data = [
             "imagen" => $_POST['imagen'],
@@ -64,13 +64,13 @@ class Medicamentos extends BaseController
         return redirect('medicamentos/mostrar','refresh');
     }
 
-    public function delete($idMedicamento){
+    public function delete($idMedicamento){ // Eliminar registro
         $medicamentosModel = model('MedicamentosModel');
         $medicamentosModel->delete($idMedicamento);
         return redirect('medicamentos/mostrar','refresh');
     }
 
-    public function editar($idMedicamento){
+    public function editar($idMedicamento){ // Modificar registro
         $medicamentosModel = model('MedicamentosModel');
         $data['medicamento'] = $medicamentosModel->find($idMedicamento);
 
@@ -82,13 +82,13 @@ class Medicamentos extends BaseController
     
     }
 
-    public function update(){
+    public function update(){ // Guardar cambios
         $medicamentosModel = model('MedicamentosModel');
         $data = [
             "imagen" => $_POST['imagen'],
             "nombre" => $_POST['nombre'],
             "categoria" => $_POST['categoria'],
-            "cantidad" => $_POST['cantidad'],
+            "cant0.idad" => $_POST['cantidad'],
             "precio" => $_POST['precio'],
             "descripcion" => $_POST['descripcion']
         ];
@@ -97,7 +97,7 @@ class Medicamentos extends BaseController
         return redirect('medicamentos/mostrar','refresh');
     }
 
-    public function buscar(){
+    public function buscar(){ // Busqueda filtrada
         $medicamentosModel = model('MedicamentosModel');
         if(isset($_GET['nombre'])){
             $nombre = $_GET['nombre'];

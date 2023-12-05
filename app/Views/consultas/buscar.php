@@ -6,7 +6,7 @@
             <img src="https://cdn-icons-png.flaticon.com/512/5397/5397386.png" alt="Regresar" width="41" height="41" />
             </a>
             <h2>Buscar Consulta</h2>
-                <label for="tipoConsulta">Tipo de Consulta</label>
+                <label for="tipoConsulta">Tipo de Consulta</label> <!-- campos de busqueda -->
                 <input type="text" class="form-control" name="tipoConsulta">
                 <label for="nombrePaciente">Nombre de Paciente</label>
                 <input type="text" class="form-control" name="nombrePaciente">
@@ -30,7 +30,7 @@
     ?>
     <div class="row">
         <div class="col-12">
-        <table class="table table-striped table-bordered">
+        <table class="table table-striped table-bordered"> <!-- Tabla que presenta registros -->
                     <thead class="thead-dark">
                         <tr>
                             <th>TIPO DE CONSULTA</th>
@@ -44,7 +44,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                    <?php foreach($consultas as $consulta):?>
+                    <?php foreach($consultas as $consulta):?> <!-- Extraccion de datos con bucle PHP -->
                         <tr>
                             <td><?=$consulta->tipoConsulta ?></td>
                             <td><?=$consulta->nombrePaciente ?></td>

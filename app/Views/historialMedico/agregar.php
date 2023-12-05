@@ -2,13 +2,13 @@
     <div class= "row">
         <div class="col-3"></div>
         <div class="col-9">
-            <a href="<?php echo base_url('index.php/historialMedico/mostrar'); ?>">
+            <a href="<?php echo base_url('index.php/historialMedico/mostrar1'); ?>">
             <img src="https://cdn-icons-png.flaticon.com/512/5397/5397386.png" alt="Regresar" width="41" height="41" />
             </a>
         <h2>Agregar Historial Medico</h2>
-            <form action="<?= base_url('index.php/historialMedico/insert'); ?>" method="POST">
+            <form action="<?= base_url('index.php/historialMedico/insert'); ?>" method="POST"> <!-- Metodo para agregrar los datos a la tabla --->
             <?= csrf_field() ?>
-                <div class="imagen"><label for="" class="form-label">Imagen:</label>
+                <div class="imagen"><label for="" class="form-label">Imagen:</label> <!-- Formulario --->
                 <input type="file" class="form-control" name ="imagen" id="imagen">
                 </div>
 
@@ -35,7 +35,7 @@
                 <br>
                 
                 <div class="mb-3">
-                    <input type="submit" class="btn btn-success">
+                    <input type="submit" class="btn btn-success"> <!-- Boton para confirmar --->
                 </div>
             </form>
         </div>
