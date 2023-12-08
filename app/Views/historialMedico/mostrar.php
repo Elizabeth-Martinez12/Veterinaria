@@ -64,6 +64,7 @@
             <img src="https://cdn-icons-png.flaticon.com/512/5397/5397386.png" alt="Regresar" width="41" height="41" />
         </a>
         <h1 class="display-4 text-center mb-4">Historial Médico</h1>
+        
         <?php
             $historialMedic = $historialMedico->id; // Manda a traer 1 por 1 cada registro
             echo '<div class="row">';

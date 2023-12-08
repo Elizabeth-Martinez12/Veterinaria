@@ -64,6 +64,9 @@
 <body>
     <div class="container">
         <h1><img src="https://cdn-icons-png.flaticon.com/512/484/484693.png" alt="Historial" width="80" height="80" /> Pacientes Registrados</h1>
+        <a href="<?= base_url('index.php/historialMedico/agregar/'); ?>" class="btn btn-success">Agregar Nuevo Historial</a>
+            <br>
+            <br>
 
         <div class="row">
             <?php foreach($historialMedico1 as $historialMedico): ?>

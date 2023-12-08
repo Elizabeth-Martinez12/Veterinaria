@@ -64,7 +64,9 @@
 <body>
     <div class="container">
         <h1><img src="https://cdn-icons-png.flaticon.com/512/484/484693.png" alt="Historial" width="80" height="80" /> Pacientes Registrados</h1>
-
+        <a href="<?= base_url('index.php/historialMedicoUsuario/agregar/'); ?>" class="btn btn-success">Agregar Nuevo Historial</a>
+            <br>
+            <br>
         <div class="row">
             <?php foreach($historialMedico1 as $historialMedico): ?>
                 <div class="col-md-4">
@@ -75,14 +77,6 @@
                                     <?= $historialMedico->nombrePaciente ?>
                                 </a>
                             </h5>
-                            <div class="action-icons">
-                                <a href="<?= base_url('index.php/historialMedico/delete/' . $historialMedico->id); ?>">
-                                    <img src="https://cdn.icon-icons.com/icons2/868/PNG/512/trash_bin_icon-icons.com_67981.png" width="30" height="30" alt="Eliminar" />
-                                </a>
-                                <a href="<?= base_url('index.php/historialMedico/editar/' . $historialMedico->id); ?>">
-                                    <img src="https://cdn.icon-icons.com/icons2/931/PNG/512/edit_modify_icon-icons.com_72390.png" width="35" height="35" alt="Editar" />
-                                </a>
-                            </div>
                         </div>
                     </div>
                 </div>
