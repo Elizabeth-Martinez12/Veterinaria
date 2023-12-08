@@ -1,3 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Elsie:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Elsie', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        h2 {
+            color: #007bff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        form {
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            font-weight: bold;
+            color: #495057;
+        }
+
+        .form-control {
+            margin-bottom: 15px;
+        }
+
+        .btn-success {
+            background-color: #28a745;
+            color: #ffffff;
+        }
+
+        .btn-success:hover {
+            background-color: #218838;
+        }
+
+        table {
+            margin-top: 30px;
+        }
+
+        th, td {
+            text-align: center;
+        }
+
+        th {
+            background-color: #343a40;
+            color: #ffffff;
+        }
+
+        .table-bordered {
+            border: 1px solid #dee2e6;
+        }
+
+        .table-striped tbody tr:nth-of-type(odd) {
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+
+        .table-striped tbody tr:nth-of-type(even) {
+            background-color: #ffffff;
+        }
+        body {
+        font-family: 'Elsie', sans-serif;
+        background-color: #f8f9fa; /* Color de fondo de respaldo si la imagen no se carga */
+        background-image: url('https://w.forfun.com/fetch/bc/bca6586ac9eb79e53f5ae77b7c47292f.jpeg'); /* Reemplaza 'ruta/de/tu/imagen.jpg' con la ruta de tu imagen de fondo */
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 0; 
+        padding: 0; 
+        }
+    </style>
+</head>
+<body>
+
 <div class="container">
     <div class="row">
         <div class="col-12">
@@ -5,8 +91,8 @@
             <a href="<?php echo base_url('index.php/medicamentosUsuario/mostrar'); ?>">
             <img src="https://cdn-icons-png.flaticon.com/512/5397/5397386.png" alt="Regresar" width="41" height="41" />
             </a>
-            <h2>Buscar Medicamento</h2>
-                <label for="nombre">Nombre</label> <!-- campos de busqueda -->
+            <h2>Buscar Medicamento</h2> <!-- campos de busqueda -->
+                <label for="nombre">Nombre</label>
                 <input type="text" class="form-control" name="nombre">
                 <label for="categoria">Categoria</label>
                 <input type="text" class="form-control" name="categoria">
@@ -24,7 +110,7 @@
         </div>
     </div>
     <?php
-    if(isset($medicamentos)){
+    if(isset($medicamentosUsuario)){
         
     }
     ?>
@@ -83,7 +169,7 @@
 </style>
 
 <div class="box-container">
-    <?php foreach ($medicamentos as $medicamento): ?> <!-- Bucle PHP para traer datos -->
+    <?php foreach ($medicamentos as $medicamento): ?> <!-- Llama datos por medio de bucle PHP -->
         <div class="box">
             <img src='<?= $medicamento->imagen ?>' alt="Imagen del medicamento">
             <h2><?= $medicamento->nombre ?></h2>
@@ -91,6 +177,7 @@
             <p class="box-description"><?= $medicamento->cantidad ?></p>
             <p class="box-description">$<?= $medicamento->precio ?></p>
             <p class="box-description"><?= $medicamento->descripcion ?></p>
+
         </div>
     <?php endforeach ?>
 </div>

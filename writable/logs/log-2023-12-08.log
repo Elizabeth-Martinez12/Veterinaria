@@ -466,3 +466,84 @@ INFO - 2023-12-08 07:54:47 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-12-08 08:11:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-12-08 08:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-12-08 08:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 08:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 08:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 08:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 09:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 09:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 09:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 09:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 09:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-08 09:44:13 --> Undefined variable $totalVentas
+in APPPATH\Views\ventas\buscar.php on line 143.
+ 1 APPPATH\Views\ventas\buscar.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $totalVentas', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\ventas\\buscar.php', 143)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\ventas\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('ventas/buscar', [], true)
+ 5 APPPATH\Controllers\Ventas.php(98): view('ventas/buscar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-08 09:45:44 --> Undefined variable $historialMedico1
+in APPPATH\Views\historialMedico\buscar.php on line 107.
+ 1 APPPATH\Views\historialMedico\buscar.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $historialMedico1', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\historialMedico\\buscar.php', 107)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\historialMedico\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('historialMedico/buscar', [], true)
+ 5 APPPATH\Controllers\HistorialMedico.php(130): view('historialMedico/buscar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\HistorialMedico->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HistorialMedico))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+INFO - 2023-12-08 09:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 09:54:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 09:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 09:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 09:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 10:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 10:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 10:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 10:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 10:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 10:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 10:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-08 10:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-08 10:08:56 --> Undefined variable $cliente
+in APPPATH\Views\cliente\buscar.php on line 114.
+ 1 APPPATH\Views\cliente\buscar.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cliente', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\cliente\\buscar.php', 114)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\cliente\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('cliente/buscar', [], true)
+ 5 APPPATH\Controllers\Cliente.php(79): view('cliente/buscar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\cliente->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cliente))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-08 10:12:42 --> Undefined variable $medicamentosUsuario
+in APPPATH\Views\medicamentosUsuario\buscar.php on line 172.
+ 1 APPPATH\Views\medicamentosUsuario\buscar.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $medicamentosUsuario', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\medicamentosUsuario\\buscar.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\medicamentosUsuario\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('medicamentosUsuario/buscar', [], true)
+ 5 APPPATH\Controllers\MedicamentosUsuarios.php(49): view('medicamentosUsuario/buscar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MedicamentosUsuarios->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MedicamentosUsuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')
+CRITICAL - 2023-12-08 10:12:44 --> Undefined variable $medicamentosUsuario
+in APPPATH\Views\medicamentosUsuario\buscar.php on line 172.
+ 1 APPPATH\Views\medicamentosUsuario\buscar.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $medicamentosUsuario', 'C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\medicamentosUsuario\\buscar.php', 172)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\app\\Views\\medicamentosUsuario\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('medicamentosUsuario/buscar', [], true)
+ 5 APPPATH\Controllers\MedicamentosUsuarios.php(49): view('medicamentosUsuario/buscar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MedicamentosUsuarios->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MedicamentosUsuarios))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\eliza\\OneDrive\\Documentos\\Veterinaria\\public\\index.php')

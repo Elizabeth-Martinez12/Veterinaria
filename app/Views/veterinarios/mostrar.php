@@ -58,10 +58,27 @@
         padding: 0; 
         }
 
+        .buscar-button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        .buscar-button:hover {
+            background-color: #0056b3;
+        }
+
     </style>
     <title>Consultas</title>
 </head>
 <body>
+
+
 <div class="container">
     <h1 class="text-center mb-4">Veterinarios</h1>
     <a href="<?= base_url('index.php/veterinarios/agregar/'); ?>" class="btn btn-success">Agregar Veterinario</a>
