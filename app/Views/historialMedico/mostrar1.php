@@ -69,7 +69,7 @@
             <br>
 
         <div class="row">
-            <?php foreach($historialMedico1 as $historialMedico): ?>
+            <?php foreach($historialMedico1 as $historialMedico): ?> <!-- Bucle PHP para obtener datos de base de datos -->
                 <div class="col-md-4">
                     <div class="card">
                         <div class="card-body">

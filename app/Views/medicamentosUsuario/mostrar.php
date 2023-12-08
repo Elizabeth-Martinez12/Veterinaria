@@ -101,7 +101,7 @@
             <h1 class="text-center mb-4">Medicamentos</h1>
             
             <div class="box-container">
-            <?php foreach ($medicamentos as $medicamento): ?>
+            <?php foreach ($medicamentos as $medicamento): ?>  <!-- Bucle PHP para obtener datos de base de datos -->
         <div class="box">
             <img src='<?= $medicamento->imagen ?>' alt="Imagen del medicamento">
             <h2><?= $medicamento->nombre ?></h2>

@@ -120,6 +120,5 @@
       </ul>
     </div>
   </div>
-  
-  
+  <a href="<?php echo base_url('index.php/home'); ?>" class="btn btn-danger">Cerrar Sesión</a>
 </nav>

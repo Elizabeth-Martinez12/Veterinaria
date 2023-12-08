@@ -71,7 +71,7 @@
             <br>
             <br>
             <div class="row">
-                <?php foreach ($consultas as $consulta): ?>
+                <?php foreach ($consultas as $consulta): ?> <!-- Bucle PHP para obtener datos de base de datos -->
                     <div class="col-md-6 mb-4">
                         <div class="card">
                             <div class="card-body">
@@ -83,8 +83,8 @@
                                     <strong>Veterinario:</strong> <?= $consulta->veterinario ?><br>
                                     <strong>Día de Consulta:</strong> <?= $consulta->diaConsulta ?><br>
                                     <strong>Hora de Consulta:</strong> <?= $consulta->horaConsulta ?><br>
-                                </p>
-                                <div class="text-center">
+                                </p> 
+                                <div class="text-center"> <!-- Funciones para acciones CRUDS -->
                                     <a href="<?= base_url('index.php/consultas/delete/' . $consulta->id); ?>" class="btn btn-danger">
                                         Eliminar
                                     </a>
