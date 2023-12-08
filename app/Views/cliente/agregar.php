@@ -120,7 +120,7 @@ $(document).ready(function() {
         var selectedDate = new Date($(this).val());
         var dayOfWeek = selectedDate.getDay();
         
-        if (dayOfWeek === 0) { // Domingo
+        if (dayOfWeek === 6) { // Domingo
             alert('Lo sentimos, no se permiten consultas los domingos. Por favor, selecciona otro día.');
             $(this).val('');
         }

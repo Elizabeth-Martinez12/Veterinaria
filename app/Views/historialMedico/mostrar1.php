@@ -59,7 +59,7 @@
         }
 
     </style>
-    <title>Consultas</title>
+    <title>Historial Medico</title>
 </head>
 <body>
     <div class="container">
