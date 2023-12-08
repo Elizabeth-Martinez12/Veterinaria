@@ -1,40 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Elsie:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Elsie', sans-serif;
+            background-color: #f8f9fa; /* Cambia el color de fondo según tus preferencias */
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        h1 {
+        color: #fff; /* Cambia el color del título según tus preferencias */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Añade un contorno al texto */
+        }
+
+
+        .btn-success {
+            background-color: #28a745; /* Cambia el color del botón Agregar Consulta según tus preferencias */
+            color: #fff; /* Cambia el color del texto del botón según tus preferencias */
+        }
+
+        .card {
+            border: 1px solid #dee2e6; /* Agrega un borde a las tarjetas */
+            border-radius: 20px; /* Añade esquinas redondeadas */
+            margin-bottom: 20px;
+            background-color: #E4DAC2; /* Cambia el color de fondo de la tarjeta según tus preferencias */
+        }
+
+        .card-title {
+            color: #007bff; /* Cambia el color del título de la tarjeta según tus preferencias */
+        }
+
+        .card-body {
+            padding: 30px;
+        }
+
+        .card-text {
+            color: #495057; /* Cambia el color del texto de la tarjeta según tus preferencias */
+        }
+
+        .btn-danger,
+        .btn-primary {
+            margin-top: 10px;
+        }
+        body {
+        font-family: 'Elsie', sans-serif;
+        background-color: #f8f9fa; /* Color de fondo de respaldo si la imagen no se carga */
+        background-image: url('https://wallpapers.com/images/hd/dark-animals-1920-x-1200-nxztwf6z3jnqzwiv.jpg'); /* Reemplaza 'ruta/de/tu/imagen.jpg' con la ruta de tu imagen de fondo */
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 0; 
+        padding: 0; 
+        }
+
+    </style>
+    <title>Consultas</title>
+</head>
+<body>
+
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <h2 class="text-center mb-4">Consultas</h2>
-            <div class="table-responsive">
-                <table class="table table-striped table-bordered"> <!-- Tabla en donde se presentaran los datos -->
-                    <thead class="thead-dark">
-                        <tr>
-                            <th>TIPO DE CONSULTA</th>
-                            <th>NOMBRE DE PACIENTE</th>
-                            <th>TIPO DE ANIMAL</th>
-                            <th>NOMBRE DUEÑO</th>
-                            <th>VETERINARIO</th>
-                            <th>DIA DE CONSULTA</th>
-                            <th>HORA DE CONSULTA</th>
-                            <th>ACCIONES</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    <?php foreach($consultas as $consulta):?> <!-- Extraccion de datos por medio de bucle PHP -->
-                        <tr>
-                            <td><?=$consulta->tipoConsulta ?></td>
-                            <td><?=$consulta->nombrePaciente ?></td>
-                            <td><?=$consulta->tipoAnimal ?></td>
-                            <td><?=$consulta->nombreDueño ?></td>
-                            <td><?=$consulta->veterinario ?></td>
-                            <td><?=$consulta->diaConsulta ?></td>
-                            <td><?=$consulta->horaConsulta ?></td>
-                            <td>
-                                <a href="<?=base_url('index.php/consultas/delete/'. $consulta->id); ?>"><img src="https://cdn.icon-icons.com/icons2/868/PNG/512/trash_bin_icon-icons.com_67981.png" width="40" height="40" /></a>
-                                <a href="<?=base_url('index.php/consultas/editar/'. $consulta->id); ?>"><img src="https://cdn.icon-icons.com/icons2/931/PNG/512/edit_modify_icon-icons.com_72390.png" width="50" height="50" /></a>
-                            </td>
-                        </tr>
-                    <?php endforeach ?>
-                    </tbody>
-                </table>
+            <h1 class="text-center mb-4">Consultas</h1>
+            <a href="<?= base_url('index.php/consultas/agregar/'); ?>" class="btn btn-success">Agregar Consulta</a>
+            <br>
+            <br>
+            <div class="row">
+                <?php foreach ($consultas as $consulta): ?>
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><?= $consulta->nombrePaciente ?></h5>
+                                <p class="card-text">
+                                    <strong>Tipo de Consulta:</strong> <?= $consulta->tipoConsulta ?><br>
+                                    <strong>Tipo de Animal:</strong> <?= $consulta->tipoAnimal ?><br>
+                                    <strong>Dueño:</strong> <?= $consulta->nombreDueño ?><br>
+                                    <strong>Veterinario:</strong> <?= $consulta->veterinario ?><br>
+                                    <strong>Día de Consulta:</strong> <?= $consulta->diaConsulta ?><br>
+                                    <strong>Hora de Consulta:</strong> <?= $consulta->horaConsulta ?><br>
+                                </p>
+                                <div class="text-center">
+                                    <a href="<?= base_url('index.php/consultas/delete/' . $consulta->id); ?>" class="btn btn-danger">
+                                        Eliminar
+                                    </a>
+                                    <a href="<?= base_url('index.php/consultas/editar/' . $consulta->id); ?>" class="btn btn-primary">
+                                        Editar
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <?php endforeach ?>
             </div>
+
         </div>
     </div>
 </div>
+
+</body>
+</html>

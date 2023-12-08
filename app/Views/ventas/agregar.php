@@ -1,6 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Elsie:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Elsie', sans-serif;
+            background-color: #f8f9fa; /* Color de fondo */
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        h2 {
+            color: #000; /* Color del título */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Añade un contorno al texto */
+        }
+
+        form {
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            font-weight: bold;
+            color: #495057; /* Color del texto del label */
+        }
+
+        .form-control {
+            margin-bottom: 15px;
+        }
+
+        .btn-success {
+            background-color: #28a745; /* Color del botón */
+            color: #ffffff;
+        }
+        body {
+        font-family: 'Elsie', sans-serif;
+        background-color: #f8f9fa; /* Color de fondo de respaldo si la imagen no se carga */
+        background-image: url('https://nintendosoup.com/wp-content/uploads/2020/02/animal-crossing-new-horizons-walmart-wallpaper-feb192020-1.jpeg'); /* Reemplaza 'ruta/de/tu/imagen.jpg' con la ruta de tu imagen de fondo */
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 0; 
+        padding: 0; 
+        }
+    </style>
 <div class="container">
     <div class="row">
         <div class="col-12">
+
+        <br>
+        <a href="<?php echo base_url('index.php/ventas/mostrar'); ?>">
+            <img src="https://cdn-icons-png.flaticon.com/512/5397/5397386.png" alt="Regresar" width="41" height="41" />
+            </a>
             <h2 class="text-center mb-4">Agregar Venta</h2>
             <form action="<?= base_url('index.php/ventas/insert'); ?>" method="POST" id="ventaForm">
                 <?= csrf_field() ?>
@@ -31,8 +90,8 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for="total" class="form-label">Precio Total</label>
-                    <input type="double" class="form-control" name="total" id="total" readonly>
+                    <label for="precioTotal" class="form-label">Precio Total</label>
+                    <input type="double" class="form-control" name="precioTotal" id="precioTotal" readonly>
                 </div>
                 <div class="mb-3">
                     <label for="fechaVenta" class="form-label">Fecha de Venta</label>
@@ -74,15 +133,15 @@
         var articuloSelect = document.getElementById("articuloSelect");
         var cantidadInput = document.getElementById("cantidad");
         var precioInput = document.getElementById("precio");
-        var totalInput = document.getElementById("total");
+        var totalInput = document.getElementById("precioTotal");
 
         var precio = parseFloat(articuloSelect.options[articuloSelect.selectedIndex].getAttribute('data-precio'));
         var cantidad = parseInt(cantidadInput.value);
 
         if (!isNaN(precio) && !isNaN(cantidad)) {
-            var total = precio * cantidad;
+            var precioTotal = precio * cantidad;
             precioInput.value = precio.toFixed(2);
-            totalInput.value = total.toFixed(2);
+            totalInput.value = precioTotal.toFixed(2);
         }
     }
 
@@ -90,14 +149,14 @@
         var articuloSelect = document.getElementById("articuloSelect");
         var cantidadInput = document.getElementById("cantidad");
         var precioInput = document.getElementById("precio");
-        var totalInput = document.getElementById("total");
+        var totalInput = document.getElementById("precioTotal");
 
         var nombre = articuloSelect.value;
         var cantidad = cantidadInput.value;
         var precio = precioInput.value;
-        var total = totalInput.value;
+        var precioTotal = totalInput.value;
 
-        if (nombre && cantidad && precio && total) {
+        if (nombre && cantidad && precio && precioTotal) {
             var tableBody = document.getElementById("articulosTablaBody");
             var newRow = tableBody.insertRow();
             var cell1 = newRow.insertCell(0);
@@ -108,7 +167,7 @@
             cell1.innerHTML = nombre;
             cell2.innerHTML = cantidad;
             cell3.innerHTML = precio;
-            cell4.innerHTML = total;
+            cell4.innerHTML = precioTotal;
 
             // Limpiar campos después de agregar a la tabla
             cantidadInput.value = '';

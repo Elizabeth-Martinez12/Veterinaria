@@ -22,7 +22,7 @@
                 <input type="text" class="form-control" id="nombreDueño" name="nombreDueño" pattern="[A-Za-zÁÉÍÓÚáéíóúñÑ\s]+" title="Ingresa solo letras, sin números ni caracteres especiales" required value="<?= $consulta->nombreDueño ?>">
                 </div>
                 <div class="diaConsulta"><label for="diaConsulta" class="form-label">Dia consulta</label>
-                <input type="date" class="form-control" id="diaConsulta" name="diaConsulta" pattern="[A-Za-zÁÉÍÓÚáéíóúñÑ\s]+" title="Ingresa solo letras, sin números ni caracteres especiales" required value="<?= $consulta->diaConsulta ?>">
+                <input type="date" class="form-control" id="diaConsulta" name="diaConsulta" required value="<?= $consulta->diaConsulta ?>">
                 </div>
                 <div class="horaConsulta"><label for="horaConsulta" class="form-label">Hora consulta</label>
                 <input type="time" class="form-control" id="horaConsulta" name="horaConsulta" required value="<?= $consulta->horaConsulta ?>">
@@ -35,3 +35,25 @@
         </div>
     </div>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    // Configura la fecha mínima en el campo de fecha
+    var today = new Date();
+    var minDate = today.toISOString().split('T')[0];
+    $('#diaConsulta').attr('min', minDate);
+
+    // Configura los días disponibles excluyendo los domingos
+    $('#diaConsulta').change(function() {
+        var selectedDate = new Date($(this).val());
+        var dayOfWeek = selectedDate.getDay();
+        
+        if (dayOfWeek === 6) { // Domingo
+            alert('Lo sentimos, no se permiten consultas los domingos. Por favor, selecciona otro día.');
+            $(this).val('');
+        }
+    });
+});
+</script>

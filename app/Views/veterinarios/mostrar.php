@@ -1,39 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Elsie:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Elsie', sans-serif;
+            background-color: #f8f9fa; /* Cambia el color de fondo según tus preferencias */
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        h1 {
+        color: #fff; /* Cambia el color del título según tus preferencias */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Añade un contorno al texto */
+        }
+
+
+        .btn-success {
+            background-color: #28a745; /* Cambia el color del botón Agregar Consulta según tus preferencias */
+            color: #fff; /* Cambia el color del texto del botón según tus preferencias */
+        }
+
+        .card {
+            border: 1px solid #dee2e6; /* Agrega un borde a las tarjetas */
+            border-radius: 20px; /* Añade esquinas redondeadas */
+            margin-bottom: 20px;
+            background-color: #e0ffff; /* Cambia el color de fondo de la tarjeta según tus preferencias */
+        }
+
+        .card-title {
+            color: #007bff; /* Cambia el color del título de la tarjeta según tus preferencias */
+        }
+
+        .card-body {
+            padding: 30px;
+        }
+
+        .card-text {
+            color: #495057; /* Cambia el color del texto de la tarjeta según tus preferencias */
+        }
+
+        .btn-danger,
+        .btn-primary {
+            margin-top: 10px;
+        }
+        body {
+        font-family: 'Elsie', sans-serif;
+        background-color: #f8f9fa; /* Color de fondo de respaldo si la imagen no se carga */
+        background-image: url('https://wallpapers.com/images/hd/dark-animals-1920-x-1200-nxztwf6z3jnqzwiv.jpg'); /* Reemplaza 'ruta/de/tu/imagen.jpg' con la ruta de tu imagen de fondo */
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 0; 
+        padding: 0; 
+        }
+
+    </style>
+    <title>Consultas</title>
+</head>
+<body>
 <div class="container">
+    <h1 class="text-center mb-4">Veterinarios</h1>
+    <a href="<?= base_url('index.php/veterinarios/agregar/'); ?>" class="btn btn-success">Agregar Veterinario</a>
+            <br>
+            <br>
     <div class="row">
-        <div class="col-12">
-            <h2 class="text-center mb-2">Veterinarios</h2>
-            <div class="table-responsive">
-                <table class="table table-striped table-bordered"> <!-- Tabla de contenido -->
-                    <thead class="thead-dark">
-                <thead>
-                    <th>NOMBRE</th>
-                    <th>APELLIDO PATERNO</th>
-                    <th>APELLIDO MATERNO</th>
-                    <th>CORREO ELECTRONICO</th>
-                    <th>TELEFONO</th>
-                    <th style="text-align: center" colspan="2">HORARIO</th>
-                    <th>ACCIONES</th>
-                </thead>
-                <tbody>
-                <?php foreach($veterinarios as $veterinario):?> <!-- Bucle PHP para extraer contenido -->
-                        <tr>
-                            <td><?=$veterinario->nombre ?></td>
-                            <td><?=$veterinario->apellidoPaterno ?></td>
-                            <td><?=$veterinario->apellidoMaterno ?></td>
-                            <td><?=$veterinario->correoElectronico ?></td>
-                            <td><?=$veterinario->telefono ?></td>
-                            <td><?=$veterinario->hora_inicio ?></td>
-                            <td><?=$veterinario->hora_fin ?></td>
-                            <td>
-                                <a href="<?=base_url('index.php/veterinarios/delete/'. $veterinario->id); ?>"><img src="https://cdn.icon-icons.com/icons2/868/PNG/512/trash_bin_icon-icons.com_67981.png" width="40" height="40" /></a>
-                                <a href="<?=base_url('index.php/veterinarios/editar/'. $veterinario->id); ?>"><img src="https://cdn.icon-icons.com/icons2/931/PNG/512/edit_modify_icon-icons.com_72390.png" width="50" height="50" /></a>
-                            </td>
-                        </tr>
-                    <?php endforeach ?>
-                </tbody>
-            </table>
-
-
-        </div>
+        <?php foreach ($veterinarios as $veterinario): ?>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"><?= $veterinario->nombre . ' ' . $veterinario->apellidoPaterno ?></h5>
+                        <p class="card-text">
+                            <strong>Correo Electrónico:</strong> <?= $veterinario->correoElectronico ?><br>
+                            <strong>Teléfono:</strong> <?= $veterinario->telefono ?><br>
+                            <strong>Horario:</strong> <?= $veterinario->hora_inicio . ' - ' . $veterinario->hora_fin ?><br>
+                        </p>
+                        <div class="text-center">
+                            <a href="<?= base_url('index.php/veterinarios/delete/' . $veterinario->id); ?>" class="btn btn-danger">
+                                Eliminar
+                            </a>
+                            <a href="<?= base_url('index.php/veterinarios/editar/' . $veterinario->id); ?>" class="btn btn-primary">
+                                Editar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <?php endforeach ?>
     </div>
 </div>

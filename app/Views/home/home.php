@@ -6,55 +6,51 @@
     <title>Iniciar Sesión</title>
     <style>
         body {
-            margin: 100;
-            padding: 100;
+            margin: 0; /* Corregir el error de margen y padding */
+            padding: 0;
             font-family: Arial, Helvetica, sans-serif;
             background-color: #424348; /* Color de fondo */
+            display: flex; /* Usar flexbox para centrar verticalmente */
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Ajustar al 100% del viewport height */
         }
         
         .container {
             width: 50%;
-            height: 100vh;
-            display: 90px;
-            justify-content: center;
-            align-items: center;
         }
 
         .login-box {
             background-color: #fff;
-            padding: 100px;
-            border-radius: 50px;
+            padding: 30px; /* Reducir el padding para una apariencia más limpia */
+            border-radius: 10px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
             text-align: center; /* Centra el contenido */
         }
 
         .login-box h2 {
-            text-align: center;
             color: #333;
         }
 
-        .login-box form {
-            text-align: center;
-        }
-
         .login-box img {
-            max-width: 200px; /* Cambia el valor para ajustar el tamaño de la imagen */
+            max-width: 150px; /* Reducir el tamaño de la imagen */
             margin-bottom: 20px;
         }
 
-
         .login-box input[type="text"],
-        .login-box input[type="password"] {
+        .login-box input[type="password"],
+        .login-box select {
             width: 100%;
-            padding: 15px;
-            margin: 15px 0;
+            padding: 12px;
+            margin: 10px 0;
             border: 3px solid #ccc;
             border-radius: 5px;
+            box-sizing: border-box;
         }
 
         .login-box input[type="submit"] {
-            width: 80%;
-            padding: 10px;
+            width: 100%;
+            padding: 12px;
             background-color: #3498db;
             color: #fff;
             border: none;

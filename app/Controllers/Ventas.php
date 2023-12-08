@@ -59,6 +59,7 @@ class Ventas extends BaseController
         "nombre" => $this->request->getPost('nombre'), 
         "cantidad" => $this->request->getPost('cantidad'),
         "precio" => $this->request->getPost('precio'),
+        "precioTotal" => $this->request->getPost('precioTotal'),
         "fechaVenta" => $this->request->getPost('fechaVenta')
         ];
         $ventasModel->insert($data);
@@ -117,6 +118,7 @@ class Ventas extends BaseController
             "nombre" => $this->request->getPost('nombre'), 
             "cantidad" => $this->request->getPost('cantidad'),
             "precio" => $this->request->getPost('precio'),
+            "precioTotal" => $this->request->getPost('precioTotal'),
             "fechaVenta" => $this->request->getPost('fechaVenta')
         ];
         

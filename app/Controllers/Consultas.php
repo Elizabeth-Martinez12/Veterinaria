@@ -35,6 +35,12 @@ class Consultas extends BaseController
         $data['veterinarios'] = $veterinariosModel->findAll();
 
         $data['consultas'] = $consultasModel->findAll();
+        // En tu controlador
+        $fecha_actual = date('Y-m-d');
+        $proximo_dia_disponible = date('Y-m-d', strtotime('next Monday')); // Excluye domingos
+        $data['fecha_actual'] = $fecha_actual;
+        $data['proximo_dia_disponible'] = $proximo_dia_disponible;
+
 
         $validation =  \Config\Services::validation();
         

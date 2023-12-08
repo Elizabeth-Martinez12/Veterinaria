@@ -13,7 +13,7 @@ class VentasModel extends Model
     protected $returnType       = 'object';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['nombre', 'cantidad', 'precio', 'fechaVenta'];
+    protected $allowedFields    = ['nombre', 'cantidad', 'precio','precioTotal', 'fechaVenta'];
 
     // Dates
     protected $useTimestamps = false;
