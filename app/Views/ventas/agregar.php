@@ -55,9 +55,6 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-        <a href="<?php echo base_url('index.php/ventas/mostrar'); ?>">
-            <img src="https://cdn-icons-png.flaticon.com/512/5397/5397386.png" alt="Regresar" width="41" height="41" />
-            </a>
         <br>
         <a href="<?php echo base_url('index.php/ventas/mostrar'); ?>">
             <img src="https://cdn-icons-png.flaticon.com/512/5397/5397386.png" alt="Regresar" width="41" height="41" />
